@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<servers>
+    <server
+        name="Community Login"
+        url="https://arisiot-developer-edition.eu11.force.com/demo" />
+
+</servers>

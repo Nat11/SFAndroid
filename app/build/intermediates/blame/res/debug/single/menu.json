@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\sf__clear_custom_url.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\menu\\sf__clear_custom_url.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\client_nav.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\res\\menu\\client_nav.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\sf__login.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\menu\\sf__login.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_client_nav_drawer.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\res\\menu\\activity_client_nav_drawer.xml"
+    }
+]

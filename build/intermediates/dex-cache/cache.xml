@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\63d1872afc293d47d2b74408139c44b814bbbee3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_1761a42f3f1b6d0a2988686848456cfc7ef674c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5e5126c8d6590f76aedd46382b8724cabc174e9">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_c3681b93114ae0b30beb7dfb384a1f3072b19031.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\e17a97746289f55dcdb122ab74dd83dbd233e102\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_331a4949e8536684796c433847159f4c3e6cf183.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\11957bea61c46fb06b97ae6a577084303f8220ba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_d79cfb3a7fc89d0d3f93d9861c7b03b5b22dd652.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_69e89180a4d865ebff11250d4742ea295cbaecc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\409a569bcae8b3b10468b765a8b1f1a85bf46335\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_c5ea1f2a410246c6c6c98c8d34d7349342115327.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bfa9cf18cf38113441b2da99688f89e0b2ebc52d">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_40410d6dd241e5d1716f7c88d51aa95c6902fe6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\a7701de9e700dafdadfc89f40f196395e96d8965\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_2bd9923f87de260f841315dae1166d0353c2b513.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_82852a08102d06338c8abe81f71beaa5d90042c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b06feeb72520a00f2e8f3c916df2e9ee01053ba">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_b9b53750c5ad74613d77b9a795df23aabd0afed7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\2dc3a9552024456dc9f4ca2e6a17d503c1f40fa0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_b7b724f27ae6580ab1cb6259c7102014b3cac3bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_773003d381d60abd894b983d73669fe9299a8276.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\2e58c0923c5b660931c08518c6349cdde93ee563\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_b9f059474639963c6ff2027700a44014d289919c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\e8e77561bbeaa2a87bff2c94d8cce27549e2599d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_d4a1e991e11afd0c629c37ebf80d4cee15e43b82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\853b45f613cc90b62c0ed3607793b108f51ce1da\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_c135977bfdf6462e91cb92e06ea0820172241463.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\jacoco\jacocoagent.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fdca30f45b60c6ba724c26a9ce127975e26d4bcb">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\jacocoagent_c6f8de89075a60a5aea229f8c1ad4dc2954472dd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9faae4d745c31993edd1c935ed005404f84dee81">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_12db4f2007f693a917d78920e0634e45aa1e147d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_1efc6a5eb9346389ba0de2f5ee10a5fa311da347.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\7b823339d3889fb3a02ccd61afcae72cd671cb07\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_6fbc6577bee8781cfdab2ab1f8153ce0b91be9b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d1c5b518662f5a6368cad1efc958f3d2576148ae">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_3f21f428bf637a09527291245014d2a6a7705dc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\40c4c243e6c9dafc79b21b312dc96a4ca299b300\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_1dd6e0eadbe170c234fef163a55b2bb59fe1ce17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\c7ee6be496af4eaf45234b56c5a1dab953aba5ef\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7ecee496793b4020ffe5052331a7efb075f5a73">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_715f1230148101121507e5fe550ceb89d6ed6fea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\86a1e740e1b8b635bcff38506d33bb16d391b6d4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_8286f007e27a22716f754890f128751143ad263b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\okio-1.11.0_893d7cba6fd833c845f42c6194f7ff7a73716aa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\6982e6f29146e9e8404164b5bfe5efcafd570244\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_b89c8b3e9593f19eb520134019b79b05d600e628.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\f788aed747dfb0dc26694e90e7b71b5627109738\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_f774da45a44e21be8534e6486ae677810756530b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\72195ae9998aa66a117b92560ef215d37265aea1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_23f736b68eaff735f0cc7b7c081547b5a2a1a09f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\4f91db069946d2dff34fe3e2ba780475fb593559\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_af3966e59336c246a5584670778576a4441e5756.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\7f3e329ba48626174983dd2757966ac42a03bf7d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_24fca31b8642b4c4083f2046d19fa6b344a6f6ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\ef708d665ab1f95d1effc5930aa014e73a70e63e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\TestApp\app\build\intermediates\pre-dexed\debug\classes_79214a1688a6dad660a9aa62307fdda775f22552.jar" />
+    </item>
+
+</items>

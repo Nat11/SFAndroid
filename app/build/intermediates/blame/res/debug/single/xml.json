@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\servers.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\res\\xml\\servers.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\authenticator.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\xml\\authenticator.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\app_restrictions.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\xml\\app_restrictions.xml"
+    }
+]

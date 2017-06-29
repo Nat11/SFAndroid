@@ -1,0 +1,7 @@
+#Thu Jun 29 17:01:31 CEST 2017
+base.0=H\:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_82852a08102d06338c8abe81f71beaa5d90042c4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=H\:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_12db4f2007f693a917d78920e0634e45aa1e147d\\classes.dex
+base.1=H\:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_12db4f2007f693a917d78920e0634e45aa1e147d
+file.0=H\:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_82852a08102d06338c8abe81f71beaa5d90042c4\\classes.dex
