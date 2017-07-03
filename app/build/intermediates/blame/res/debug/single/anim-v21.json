@@ -1,10 +1,10 @@
 [
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f788aed747dfb0dc26694e90e7b71b5627109738\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\natal\\.android\\build-cache\\efe683d41b88c78daf9919c763b40f9cc8b56765\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f788aed747dfb0dc26694e90e7b71b5627109738\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\natal\\.android\\build-cache\\efe683d41b88c78daf9919c763b40f9cc8b56765\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     }
 ]

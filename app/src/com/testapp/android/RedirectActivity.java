@@ -13,6 +13,7 @@ import com.salesforce.androidsdk.rest.RestResponse;
 import com.salesforce.androidsdk.ui.SalesforceActivity;
 import com.testapp.android.client.ClientNavActivity;
 import com.testapp.android.subcontractor.SubcontractorActivity;
+import com.testapp.android.subcontractor.SubcontractorNavActivity;
 
 import org.json.JSONArray;
 
@@ -67,7 +68,7 @@ public class RedirectActivity extends SalesforceActivity {
                                     break;
 
                                 case "subcontractor":
-                                    startActivity(new Intent(RedirectActivity.this, SubcontractorActivity.class));
+                                    startActivity(new Intent(RedirectActivity.this, SubcontractorNavActivity.class));
                                     break;
                             }
 

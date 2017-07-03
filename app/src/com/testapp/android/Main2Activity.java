@@ -1,7 +1,6 @@
 package com.testapp.android;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
@@ -13,7 +12,6 @@ import com.salesforce.androidsdk.rest.RestClient;
 import com.salesforce.androidsdk.rest.RestRequest;
 import com.salesforce.androidsdk.rest.RestResponse;
 import com.salesforce.androidsdk.ui.SalesforceActivity;
-import com.salesforce.androidsdk.auth.OAuth2;
 
 import org.json.JSONArray;
 
@@ -23,11 +21,11 @@ public class Main2Activity extends SalesforceActivity {
 
     private RestClient client;
     private TextView fullName, accountName, contactName;
-    private static String fn = "";
+    //private static String fn = "";
     private static String cn = "";
     private static String an = "";
-    private static String contactId = "";
-    private static String accountId = "";
+    //private static String contactId = "";
+    //private static String accountId = "";
     public static String accessToken = "";
 
     @Override
@@ -68,22 +66,21 @@ public class Main2Activity extends SalesforceActivity {
 
     public void onFetchCurrentUser() throws UnsupportedEncodingException {
         String userId = client.getClientInfo().userId;
-        Log.d("userId", userId);
-        sendRequest("SELECT Name,ContactId,Flag__c FROM User WHERE Id='" + userId + "'");
+        sendRequest("SELECT Name,ContactId,Flag__c FROM User WHERE Id='" + userId + "'", "ContactId", "fn");
     }
 
-    public void onFetchContactUser() throws UnsupportedEncodingException {
+    public void onFetchContactUser(String contactId) throws UnsupportedEncodingException {
         Log.d("contactId", contactId);
-        sendContactRequest("SELECT Name, AccountId FROM Contact WHERE Id='" + contactId + "'");
+        sendRequest("SELECT Name, AccountId FROM Contact WHERE Id='" + contactId + "'", "AccountId", "cn");
     }
 
-    public void onFetchAccountUser() throws UnsupportedEncodingException {
+    public void onFetchAccountUser(String accountId) throws UnsupportedEncodingException {
         Log.d("AccountId", accountId);
-        sendAccountContactRequest("SELECT Name FROM Account WHERE Id='" + accountId + "'");
+        sendRequest("SELECT Name FROM Account WHERE Id='" + accountId + "'", null, "an");
     }
 
 
-    private void sendRequest(String soql) throws UnsupportedEncodingException {
+    private void sendRequest(String soql, final String sfId, final String action) throws UnsupportedEncodingException {
         RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 
         client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
@@ -96,10 +93,23 @@ public class Main2Activity extends SalesforceActivity {
                         try {
                             Log.d("result", result.toString());
                             JSONArray records = result.asJSONObject().getJSONArray("records");
-                            fn = records.getJSONObject(0).getString("Name");
-                            contactId = records.getJSONObject(0).getString("ContactId");
-                            onFetchContactUser();
-                            fullName.append(fn);
+                            String name = records.getJSONObject(0).getString("Name");
+                            String id = records.getJSONObject(0).getString(sfId);
+
+                            switch (action) {
+                                case "fn":
+                                    onFetchContactUser(id);
+                                    fullName.append(name);
+                                    break;
+
+                                case "cn":
+                                    onFetchAccountUser(id);
+                                    contactName.append(name);
+                                    break;
+
+                                case "an":
+                                    accountName.setText(name);
+                            }
 
                         } catch (Exception e) {
                             onError(e);
@@ -124,7 +134,7 @@ public class Main2Activity extends SalesforceActivity {
     }
 
 
-    private void sendContactRequest(String soql) throws UnsupportedEncodingException {
+   /* private void sendContactRequest(String soql) throws UnsupportedEncodingException {
         RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 
         client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
@@ -201,4 +211,5 @@ public class Main2Activity extends SalesforceActivity {
             }
         });
     }
+    */
 }

@@ -1,12 +1,13 @@
 package com.testapp.android.client;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
@@ -19,10 +20,7 @@ import com.salesforce.androidsdk.rest.RestClient;
 import com.salesforce.androidsdk.rest.RestRequest;
 import com.salesforce.androidsdk.rest.RestResponse;
 import com.salesforce.androidsdk.ui.SalesforceActivity;
-import com.testapp.android.Main2Activity;
 import com.testapp.android.R;
-import com.testapp.android.RedirectActivity;
-import com.testapp.android.subcontractor.SubcontractorActivity;
 
 import org.json.JSONArray;
 
@@ -32,16 +30,15 @@ public class ClientNavActivity extends SalesforceActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private RestClient client;
-    private TextView tvUser, tvContact, tvAccount;
-    private String username, contactName, accountName;
-    private static String contactId, accountId;
+    private TextView tvUser, tvContact, tvAccount, tvEmail;
+    private ProgressDialog progressDialog;
+    private static String un, cn, an, email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_client_nav);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -51,15 +48,20 @@ public class ClientNavActivity extends SalesforceActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        tvUser = (TextView) findViewById(R.id.sfUser);
-        tvContact = (TextView) findViewById(R.id.sfContact);
-        tvAccount = (TextView) findViewById(R.id.sfAccount);
     }
 
     @Override
     public void onResume(RestClient client) {
         this.client = client;
+
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Loading...");
+        progressDialog.setCanceledOnTouchOutside(false);
+
+        tvUser = (TextView) findViewById(R.id.sfUser);
+        tvContact = (TextView) findViewById(R.id.sfContact);
+        tvAccount = (TextView) findViewById(R.id.sfAccount);
+        tvEmail = (TextView) findViewById(R.id.sfEmail);
 
         try {
             loadUserData();
@@ -69,100 +71,24 @@ public class ClientNavActivity extends SalesforceActivity
     }
 
     public void loadUserData() throws UnsupportedEncodingException {
+        progressDialog.show();
         String userId = client.getClientInfo().userId;
-        Log.d("userId", userId);
-        sendRequest("SELECT Name, ContactId FROM User WHERE Id='" + userId + "'");
+        sendRequest("SELECT Name, ContactId FROM User WHERE Id='" + userId + "'", "ContactId", "fn");
+
     }
 
-    private void sendRequest(String soql) throws UnsupportedEncodingException {
-
-        RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
-
-        client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
-            @Override
-            public void onSuccess(RestRequest request, final RestResponse result) {
-                result.consumeQuietly(); // consume before going back to main thread
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        try {
-                            Log.d("username", result.toString());
-                            JSONArray records = result.asJSONObject().getJSONArray("records");
-                            username = records.getJSONObject(0).getString("Name");
-                            contactId = records.getJSONObject(0).getString("ContactId");
-                            onFetchContactUser();
-                            tvUser.setText(username);
-
-                        } catch (Exception e) {
-                            onError(e);
-                        }
-                    }
-                });
-            }
-
-            @Override
-            public void onError(final Exception exception) {
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        Log.d("error", ClientNavActivity.this.getString(SalesforceSDKManager.getInstance().getSalesforceR().stringGenericError(), exception.toString()));
-                        Toast.makeText(ClientNavActivity.this,
-                                ClientNavActivity.this.getString(SalesforceSDKManager.getInstance().getSalesforceR().stringGenericError(), exception.toString()),
-                                Toast.LENGTH_LONG).show();
-                    }
-                });
-            }
-        });
+    public void onFetchContactUser(String contactId) throws UnsupportedEncodingException {
+        sendRequest("SELECT Name, AccountId, Email FROM Contact WHERE Id='" + contactId + "'", "AccountId", "cn");
     }
 
-    public void onFetchContactUser() throws UnsupportedEncodingException {
-        sendContactRequest("SELECT Name, AccountId FROM Contact WHERE Id='" + contactId + "'");
+    public void onFetchAccountUser(String accountId) throws UnsupportedEncodingException {
+        sendRequest("SELECT Id, Name FROM Account WHERE Id='" + accountId + "'", "Id", "an");
+        progressDialog.dismiss();
+
     }
 
-    public void sendContactRequest(String soql) throws UnsupportedEncodingException {
-        RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
+    private void sendRequest(String soql, final String sfId, final String action) throws UnsupportedEncodingException {
 
-        client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
-            @Override
-            public void onSuccess(RestRequest request, final RestResponse result) {
-                result.consumeQuietly(); // consume before going back to main thread
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        try {
-                            Log.d("contactId result", result.toString());
-                            JSONArray records = result.asJSONObject().getJSONArray("records");
-                            contactName = records.getJSONObject(0).getString("Name");
-                            accountId = records.getJSONObject(0).getString("AccountId");
-                            onFetchAccountUser();
-                            tvContact.setText(contactName);
-                        } catch (Exception e) {
-                            onError(e);
-                        }
-                    }
-                });
-            }
-
-            @Override
-            public void onError(final Exception exception) {
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        Log.d("error", ClientNavActivity.this.getString(SalesforceSDKManager.getInstance().getSalesforceR().stringGenericError(), exception.toString()));
-                        Toast.makeText(ClientNavActivity.this,
-                                ClientNavActivity.this.getString(SalesforceSDKManager.getInstance().getSalesforceR().stringGenericError(), exception.toString()),
-                                Toast.LENGTH_LONG).show();
-                    }
-                });
-            }
-        });
-    }
-
-    public void onFetchAccountUser() throws UnsupportedEncodingException {
-        sendAccountContactRequest("SELECT Name FROM Account WHERE Id='" + accountId + "'");
-    }
-
-    public void sendAccountContactRequest(String soql) throws UnsupportedEncodingException {
         RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 
         client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
@@ -175,8 +101,30 @@ public class ClientNavActivity extends SalesforceActivity
                         try {
                             Log.d("result", result.toString());
                             JSONArray records = result.asJSONObject().getJSONArray("records");
-                            accountName = records.getJSONObject(0).getString("Name");
-                            tvAccount.setText(accountName);
+                            String name = records.getJSONObject(0).getString("Name");
+                            String id = records.getJSONObject(0).getString(sfId);
+
+                            switch (action) {
+                                case "fn":
+                                    onFetchContactUser(id);
+                                    tvUser.setText("Welcome " + name);
+                                    un = name;
+                                    break;
+
+                                case "cn":
+                                    onFetchAccountUser(id);
+                                    tvContact.setText("Contact: " + name);
+                                    cn = name;
+                                    email = records.getJSONObject(0).getString("Email");
+                                    tvEmail.setText("Email: " + email);
+                                    break;
+
+                                case "an":
+                                    tvAccount.setText("Account: " + name);
+                                    an = name;
+                            }
+
+
                         } catch (Exception e) {
                             onError(e);
                         }
@@ -205,7 +153,8 @@ public class ClientNavActivity extends SalesforceActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            finish();
+            moveTaskToBack(true);
         }
     }
 
@@ -218,6 +167,12 @@ public class ClientNavActivity extends SalesforceActivity
         if (id == R.id.monitor) {
 
         } else if (id == R.id.services) {
+            Intent i = new Intent(ClientNavActivity.this, ServicesActivity.class);
+            i.putExtra("clientEmail", email);
+            i.putExtra("fullName", un);
+            i.putExtra("ContactName", cn);
+            i.putExtra("AccountName", an);
+            startActivity(i);
 
         } else if (id == R.id.logout) {
             SalesforceSDKManager.getInstance().logout(this);
@@ -227,4 +182,15 @@ public class ClientNavActivity extends SalesforceActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("userName", tvUser.getText().toString());
+        outState.putString("userContact", tvContact.getText().toString());
+        outState.putString("userAccount", tvAccount.getText().toString());
+
+    }
+
+
 }

@@ -1,322 +1,349 @@
 -- Merging decision tree log ---
 manifest
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:2:1-50:12
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:2:1-66:12
 	package
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:3:5-34
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:3:5-34
 	android:versionName
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:6:5-30
-		INJECTED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml
-		INJECTED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml
+		INJECTED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml
 	android:versionCode
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:5:5-28
-		INJECTED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml
-		INJECTED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml
+		INJECTED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml
 	xmlns:android
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:4:5-43
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:4:5-43
 uses-sdk
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:8:5-10:41
-MERGED from [TestApp.libs:SmartSync:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [TestApp.libs:SmartStore:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [TestApp.libs:SalesforceAnalytics:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Administrator\.android\build-cache\2e58c0923c5b660931c08518c6349cdde93ee563\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Administrator\.android\build-cache\72195ae9998aa66a117b92560ef215d37265aea1\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Administrator\.android\build-cache\6982e6f29146e9e8404164b5bfe5efcafd570244\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Administrator\.android\build-cache\63d1872afc293d47d2b74408139c44b814bbbee3\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Administrator\.android\build-cache\7b823339d3889fb3a02ccd61afcae72cd671cb07\output\AndroidManifest.xml:17:5-43
-MERGED from [net.zetetic:android-database-sqlcipher:3.5.2] C:\Users\Administrator\.android\build-cache\c7ee6be496af4eaf45234b56c5a1dab953aba5ef\output\AndroidManifest.xml:3:3-40
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\409a569bcae8b3b10468b765a8b1f1a85bf46335\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.2.0] C:\Users\Administrator\.android\build-cache\f788aed747dfb0dc26694e90e7b71b5627109738\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Administrator\.android\build-cache\7f3e329ba48626174983dd2757966ac42a03bf7d\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Administrator\.android\build-cache\ef708d665ab1f95d1effc5930aa014e73a70e63e\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Administrator\.android\build-cache\11957bea61c46fb06b97ae6a577084303f8220ba\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Administrator\.android\build-cache\e8e77561bbeaa2a87bff2c94d8cce27549e2599d\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] C:\Users\Administrator\.android\build-cache\40c4c243e6c9dafc79b21b312dc96a4ca299b300\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Administrator\.android\build-cache\2dc3a9552024456dc9f4ca2e6a17d503c1f40fa0\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Administrator\.android\build-cache\853b45f613cc90b62c0ed3607793b108f51ce1da\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Administrator\.android\build-cache\e17a97746289f55dcdb122ab74dd83dbd233e102\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Administrator\.android\build-cache\86a1e740e1b8b635bcff38506d33bb16d391b6d4\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Administrator\.android\build-cache\a7701de9e700dafdadfc89f40f196395e96d8965\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Administrator\.android\build-cache\4f91db069946d2dff34fe3e2ba780475fb593559\output\AndroidManifest.xml:21:5-23:58
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:8:5-10:41
+MERGED from [TestApp.libs:SmartSync:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [TestApp.libs:SmartStore:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [TestApp.libs:SalesforceAnalytics:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\natal\.android\build-cache\35a477132902d2173113b6d6e64fe2eec634b0bd\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\natal\.android\build-cache\05b2ae3858de16324d3e9622432933a538943bb2\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\natal\.android\build-cache\7d123a35d0b5d4157c8942fc80e83eb2ebd66421\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\natal\.android\build-cache\b694f624b59090bcea961dc059403ca7400fdd4a\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\natal\.android\build-cache\edfc385ef99cbceebcd32cb87c3b36f961d116b2\output\AndroidManifest.xml:17:5-43
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.2] C:\Users\natal\.android\build-cache\83e83bf2a79acf0c30748f6a01a8d2bc9dbcdca2\output\AndroidManifest.xml:3:3-40
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\natal\.android\build-cache\ee0577ee9190ab1a464ced3d53db6f076213cc38\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.2.0] C:\Users\natal\.android\build-cache\efe683d41b88c78daf9919c763b40f9cc8b56765\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\natal\.android\build-cache\7def6dadfc8c8d8199bb26b1f3267c0768c521a4\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\natal\.android\build-cache\5a5877fd414e36431e212af835a5d7578dd1d579\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\natal\.android\build-cache\27391ba8331b7193f71e88f38ce242a3575544e5\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\natal\.android\build-cache\e0699bb5674b2672a605c005cba7eff1e7567e6f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\natal\.android\build-cache\79bee7648b191baef4292cfc20d73de61969c632\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\natal\.android\build-cache\7530703360876bce7fe07be57e5ce522bae3e1d6\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\natal\.android\build-cache\606ddad53e7e6f042cb4087a39622340fa56cb4a\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\natal\.android\build-cache\b895cf81af593b34d4154e24b367c6cd1b17ca59\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\natal\.android\build-cache\49377a3a0e3dc3232e0b9d7392813163c6cc45f4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\natal\.android\build-cache\a44f4ac5c3a562bf5547cb746bb246842485f858\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\natal\.android\build-cache\a218a23d471290aa3f81a44371d828c9f7704c52\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] C:\Users\Administrator\.android\build-cache\f788aed747dfb0dc26694e90e7b71b5627109738\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.2.0] C:\Users\natal\.android\build-cache\efe683d41b88c78daf9919c763b40f9cc8b56765\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:10:9-38
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:10:9-38
 	android:minSdkVersion
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:9:9-35
 permission#com.testapp.android.C2D_MESSAGE
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:17:5-19:47
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:17:5-19:47
 	android:protectionLevel
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:19:9-44
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:19:9-44
 	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:18:9-55
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:18:9-55
 uses-permission#com.testapp.android.C2D_MESSAGE
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:21:5-71
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:21:5-71
 	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:21:22-68
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:21:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:22:5-81
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:22:22-78
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:22:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:23:5-75
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:23:5-75
 	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:23:22-72
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:23:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:24:5-80
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:24:5-80
 	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:24:22-77
-application
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:26:5-48:19
-MERGED from [TestApp.libs:SmartSync:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\bundles\default\AndroidManifest.xml:11:5-20
-MERGED from [TestApp.libs:SmartStore:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
-MERGED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:22:5-115:19
-MERGED from [TestApp.libs:SalesforceAnalytics:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\bundles\default\AndroidManifest.xml:14:5-20
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Administrator\.android\build-cache\2e58c0923c5b660931c08518c6349cdde93ee563\output\AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Administrator\.android\build-cache\72195ae9998aa66a117b92560ef215d37265aea1\output\AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Administrator\.android\build-cache\6982e6f29146e9e8404164b5bfe5efcafd570244\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Administrator\.android\build-cache\63d1872afc293d47d2b74408139c44b814bbbee3\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Administrator\.android\build-cache\7b823339d3889fb3a02ccd61afcae72cd671cb07\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\409a569bcae8b3b10468b765a8b1f1a85bf46335\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.2.0] C:\Users\Administrator\.android\build-cache\f788aed747dfb0dc26694e90e7b71b5627109738\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Administrator\.android\build-cache\7f3e329ba48626174983dd2757966ac42a03bf7d\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Administrator\.android\build-cache\ef708d665ab1f95d1effc5930aa014e73a70e63e\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Administrator\.android\build-cache\11957bea61c46fb06b97ae6a577084303f8220ba\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] C:\Users\Administrator\.android\build-cache\40c4c243e6c9dafc79b21b312dc96a4ca299b300\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Administrator\.android\build-cache\2dc3a9552024456dc9f4ca2e6a17d503c1f40fa0\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Administrator\.android\build-cache\853b45f613cc90b62c0ed3607793b108f51ce1da\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Administrator\.android\build-cache\e17a97746289f55dcdb122ab74dd83dbd233e102\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Administrator\.android\build-cache\86a1e740e1b8b635bcff38506d33bb16d391b6d4\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Administrator\.android\build-cache\a7701de9e700dafdadfc89f40f196395e96d8965\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Administrator\.android\build-cache\4f91db069946d2dff34fe3e2ba780475fb593559\output\AndroidManifest.xml:25:5-20
-	android:label
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:29:9-41
-	android:manageSpaceActivity
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:30:9-87
-	android:icon
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:28:9-42
-	android:theme
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:31:9-40
-	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:27:9-40
-activity#com.testapp.android.Main2Activity
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:34:9-51
-	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:34:19-48
-activity#com.testapp.android.RedirectActivity
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:35:9-41:20
-	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:35:19-51
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:36:13-40:29
-action#android.intent.action.MAIN
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:37:17-69
-	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:37:25-66
-category#android.intent.category.LAUNCHER
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:39:17-77
-	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:39:27-74
-activity#com.testapp.android.client.ClientActivity
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:42:9-59
-	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:42:19-56
-activity#com.testapp.android.subcontractor.SubcontractorActivity
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:43:9-73
-	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:43:19-70
-activity#com.testapp.android.client.ClientNavActivity
-ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:44:9-47:59
-	android:label
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:46:13-62
-	android:theme
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:47:13-56
-	android:name
-		ADDED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml:45:13-53
-activity#com.salesforce.androidsdk.smartstore.ui.SmartStoreInspectorActivity
-ADDED from [TestApp.libs:SmartStore:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\bundles\default\AndroidManifest.xml:14:9-104
-	android:name
-		ADDED from [TestApp.libs:SmartStore:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\bundles\default\AndroidManifest.xml:14:19-101
-uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:11:5-80
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:11:22-77
-uses-permission#android.permission.GET_ACCOUNTS
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:12:5-71
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:12:22-68
-uses-permission#android.permission.MANAGE_ACCOUNTS
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:13:5-74
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:13:22-71
-uses-permission#android.permission.USE_CREDENTIALS
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:14:5-74
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:14:22-71
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:15:5-68
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:15:22-65
-uses-permission#android.permission.GET_TASKS
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:16:5-68
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:16:22-65
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:17:5-82
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Administrator\.android\build-cache\2e58c0923c5b660931c08518c6349cdde93ee563\output\AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Administrator\.android\build-cache\72195ae9998aa66a117b92560ef215d37265aea1\output\AndroidManifest.xml:20:5-81
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:17:22-79
-uses-permission-sdk-23
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:20:5-81
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:20:29-78
-meta-data#android.content.APP_RESTRICTIONS
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:25:9-27:56
-	android:resource
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:27:13-53
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:26:13-60
-service#com.salesforce.androidsdk.auth.AuthenticatorService
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:30:9-40:19
-	android:exported
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:32:13-36
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:31:13-79
-intent-filter#android.accounts.AccountAuthenticator
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:33:13-35:29
-action#android.accounts.AccountAuthenticator
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:34:17-80
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:34:25-77
-meta-data#android.accounts.AccountAuthenticator
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:37:13-39:57
-	android:resource
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:39:17-54
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:38:17-69
-activity#com.salesforce.androidsdk.ui.LoginActivity
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:43:9-45:67
-	android:theme
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:45:13-64
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:44:13-70
-activity#com.salesforce.androidsdk.ui.PasscodeActivity
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:48:9-50:67
-	android:theme
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:50:13-64
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:49:13-73
-activity#com.salesforce.androidsdk.ui.ManageSpaceActivity
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:53:9-56:67
-	android:excludeFromRecents
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:55:13-46
-	android:theme
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:56:13-64
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:54:13-76
-activity#com.salesforce.androidsdk.ui.ServerPickerActivity
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:59:9-62:67
-	android:excludeFromRecents
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:61:13-46
-	android:theme
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:62:13-64
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:60:13-77
-activity#com.salesforce.androidsdk.ui.AccountSwitcherActivity
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:65:9-68:67
-	android:excludeFromRecents
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:67:13-46
-	android:theme
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:68:13-64
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:66:13-80
-receiver#com.google.android.gms.gcm.GcmReceiver
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:75:9-84:20
-	android:exported
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:77:13-36
-	android:permission
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:78:13-73
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:76:13-66
-intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:79:13-83:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:80:17-81
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:80:25-78
-category#${applicationId}
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:82:17-61
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:82:27-58
-		INJECTED from H:\Desktop\Accenture IDMS\Android\TestApp\app\AndroidManifest.xml
-service#com.salesforce.androidsdk.push.SFDCGcmListenerService
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:86:9-92:19
-	android:exported
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:88:13-37
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:87:13-81
-intent-filter#com.google.android.c2dm.intent.RECEIVE
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:89:13-91:29
-service#com.salesforce.androidsdk.push.SFDCInstanceIDListenerService
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:93:9-99:19
-	android:exported
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:95:13-37
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:94:13-88
-intent-filter#com.google.android.gms.iid.InstanceID
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:96:13-98:29
-action#com.google.android.gms.iid.InstanceID
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:97:17-80
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:97:25-77
-service#com.salesforce.androidsdk.push.SFDCRegistrationIntentService
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:100:9-103:19
-	android:exported
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:102:13-37
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:101:13-88
-receiver#com.salesforce.androidsdk.push.PushService$SFDCRegistrationRetryAlarmReceiver
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:105:9-107:40
-	android:exported
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:107:13-37
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:106:13-105
-service#com.salesforce.androidsdk.push.PushService
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:109:9-111:40
-	android:exported
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:111:13-37
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:110:13-70
-service#com.salesforce.androidsdk.analytics.AnalyticsPublisherService
-ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:112:9-114:40
-	android:exported
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:114:13-37
-	android:name
-		ADDED from [TestApp.libs:SalesforceSDK:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:113:13-89
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:24:22-77
 uses-permission#android.permission.INTERNET
-ADDED from [TestApp.libs:SalesforceAnalytics:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\bundles\default\AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Administrator\.android\build-cache\2e58c0923c5b660931c08518c6349cdde93ee563\output\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Administrator\.android\build-cache\72195ae9998aa66a117b92560ef215d37265aea1\output\AndroidManifest.xml:21:5-66
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:25:5-67
+MERGED from [TestApp.libs:SalesforceAnalytics:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\bundles\default\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\natal\.android\build-cache\35a477132902d2173113b6d6e64fe2eec634b0bd\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\natal\.android\build-cache\05b2ae3858de16324d3e9622432933a538943bb2\output\AndroidManifest.xml:21:5-66
 	android:name
-		ADDED from [TestApp.libs:SalesforceAnalytics:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\bundles\default\AndroidManifest.xml:11:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [TestApp.libs:SalesforceAnalytics:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\bundles\default\AndroidManifest.xml:12:5-79
-	android:name
-		ADDED from [TestApp.libs:SalesforceAnalytics:unspecified] H:\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\bundles\default\AndroidManifest.xml:12:22-76
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Administrator\.android\build-cache\6982e6f29146e9e8404164b5bfe5efcafd570244\output\AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Administrator\.android\build-cache\6982e6f29146e9e8404164b5bfe5efcafd570244\output\AndroidManifest.xml:19:146-170
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:25:22-64
+application
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:27:5-64:19
+MERGED from [TestApp.libs:SmartSync:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\bundles\default\AndroidManifest.xml:11:5-20
+MERGED from [TestApp.libs:SmartStore:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:22:5-115:19
+MERGED from [TestApp.libs:SalesforceAnalytics:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\bundles\default\AndroidManifest.xml:14:5-20
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\natal\.android\build-cache\35a477132902d2173113b6d6e64fe2eec634b0bd\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\natal\.android\build-cache\05b2ae3858de16324d3e9622432933a538943bb2\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\natal\.android\build-cache\7d123a35d0b5d4157c8942fc80e83eb2ebd66421\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\natal\.android\build-cache\b694f624b59090bcea961dc059403ca7400fdd4a\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\natal\.android\build-cache\edfc385ef99cbceebcd32cb87c3b36f961d116b2\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\natal\.android\build-cache\ee0577ee9190ab1a464ced3d53db6f076213cc38\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.2.0] C:\Users\natal\.android\build-cache\efe683d41b88c78daf9919c763b40f9cc8b56765\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\natal\.android\build-cache\7def6dadfc8c8d8199bb26b1f3267c0768c521a4\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\natal\.android\build-cache\5a5877fd414e36431e212af835a5d7578dd1d579\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\natal\.android\build-cache\27391ba8331b7193f71e88f38ce242a3575544e5\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\natal\.android\build-cache\79bee7648b191baef4292cfc20d73de61969c632\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\natal\.android\build-cache\7530703360876bce7fe07be57e5ce522bae3e1d6\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\natal\.android\build-cache\606ddad53e7e6f042cb4087a39622340fa56cb4a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\natal\.android\build-cache\b895cf81af593b34d4154e24b367c6cd1b17ca59\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\natal\.android\build-cache\49377a3a0e3dc3232e0b9d7392813163c6cc45f4\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\natal\.android\build-cache\a44f4ac5c3a562bf5547cb746bb246842485f858\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\natal\.android\build-cache\a218a23d471290aa3f81a44371d828c9f7704c52\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:30:9-41
+	android:manageSpaceActivity
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:31:9-87
+	android:icon
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:29:9-42
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Administrator\.android\build-cache\6982e6f29146e9e8404164b5bfe5efcafd570244\output\AndroidManifest.xml:19:86-145
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:32:9-40
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Administrator\.android\build-cache\6982e6f29146e9e8404164b5bfe5efcafd570244\output\AndroidManifest.xml:19:19-85
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:28:9-47
+activity#com.testapp.android.Main2Activity
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:35:9-51
+	android:name
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:35:19-48
+activity#com.testapp.android.RedirectActivity
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:36:9-43:20
+	android:configChanges
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:38:13-59
+	android:name
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:37:13-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:39:13-42:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:41:27-74
+activity#com.testapp.android.client.ClientNavActivity
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:44:9-47:65
+	android:label
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:47:13-62
+	android:configChanges
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:46:13-59
+	android:name
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:45:13-53
+activity#com.testapp.android.subcontractor.SubcontractorNavActivity
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:48:9-51:72
+	android:label
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:51:13-69
+	android:configChanges
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:50:13-59
+	android:name
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:49:13-67
+activity#com.testapp.android.subcontractor.SubcontractorActivity
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:52:9-57:57
+	android:label
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:55:13-47
+	android:parentActivityName
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:56:13-81
+	android:windowSoftInputMode
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:57:13-54
+	android:configChanges
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:54:13-59
+	android:name
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:53:13-64
+activity#com.testapp.android.client.ServicesActivity
+ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:58:9-63:57
+	android:label
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:61:13-37
+	android:parentActivityName
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:62:13-67
+	android:windowSoftInputMode
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:63:13-54
+	android:configChanges
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:60:13-59
+	android:name
+		ADDED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml:59:13-52
+activity#com.salesforce.androidsdk.smartstore.ui.SmartStoreInspectorActivity
+ADDED from [TestApp.libs:SmartStore:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\bundles\default\AndroidManifest.xml:14:9-104
+	android:name
+		ADDED from [TestApp.libs:SmartStore:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\bundles\default\AndroidManifest.xml:14:19-101
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:12:22-68
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:13:22-71
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:14:5-74
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:14:22-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:16:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:17:5-82
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\natal\.android\build-cache\35a477132902d2173113b6d6e64fe2eec634b0bd\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\natal\.android\build-cache\05b2ae3858de16324d3e9622432933a538943bb2\output\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:17:22-79
+uses-permission-sdk-23
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:20:29-78
+meta-data#android.content.APP_RESTRICTIONS
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:25:9-27:56
+	android:resource
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:27:13-53
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:26:13-60
+service#com.salesforce.androidsdk.auth.AuthenticatorService
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:30:9-40:19
+	android:exported
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:31:13-79
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:33:13-35:29
+action#android.accounts.AccountAuthenticator
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:34:17-80
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:34:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:37:13-39:57
+	android:resource
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:39:17-54
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:38:17-69
+activity#com.salesforce.androidsdk.ui.LoginActivity
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:43:9-45:67
+	android:theme
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:45:13-64
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:44:13-70
+activity#com.salesforce.androidsdk.ui.PasscodeActivity
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:48:9-50:67
+	android:theme
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:50:13-64
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:49:13-73
+activity#com.salesforce.androidsdk.ui.ManageSpaceActivity
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:53:9-56:67
+	android:excludeFromRecents
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:55:13-46
+	android:theme
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:56:13-64
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:54:13-76
+activity#com.salesforce.androidsdk.ui.ServerPickerActivity
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:59:9-62:67
+	android:excludeFromRecents
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:61:13-46
+	android:theme
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:62:13-64
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:60:13-77
+activity#com.salesforce.androidsdk.ui.AccountSwitcherActivity
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:65:9-68:67
+	android:excludeFromRecents
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:67:13-46
+	android:theme
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:68:13-64
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:66:13-80
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:75:9-84:20
+	android:exported
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:77:13-36
+	android:permission
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:78:13-73
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:76:13-66
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:79:13-83:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:80:17-81
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:80:25-78
+category#${applicationId}
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:82:17-61
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:82:27-58
+		INJECTED from C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\AndroidManifest.xml
+service#com.salesforce.androidsdk.push.SFDCGcmListenerService
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:86:9-92:19
+	android:exported
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:88:13-37
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:87:13-81
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:89:13-91:29
+service#com.salesforce.androidsdk.push.SFDCInstanceIDListenerService
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:93:9-99:19
+	android:exported
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:95:13-37
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:94:13-88
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:96:13-98:29
+action#com.google.android.gms.iid.InstanceID
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:97:17-80
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:97:25-77
+service#com.salesforce.androidsdk.push.SFDCRegistrationIntentService
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:100:9-103:19
+	android:exported
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:102:13-37
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:101:13-88
+receiver#com.salesforce.androidsdk.push.PushService$SFDCRegistrationRetryAlarmReceiver
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:105:9-107:40
+	android:exported
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:107:13-37
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:106:13-105
+service#com.salesforce.androidsdk.push.PushService
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:109:9-111:40
+	android:exported
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:111:13-37
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:110:13-70
+service#com.salesforce.androidsdk.analytics.AnalyticsPublisherService
+ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:112:9-114:40
+	android:exported
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:114:13-37
+	android:name
+		ADDED from [TestApp.libs:SalesforceSDK:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\bundles\default\AndroidManifest.xml:113:13-89
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [TestApp.libs:SalesforceAnalytics:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\bundles\default\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [TestApp.libs:SalesforceAnalytics:unspecified] C:\Users\natal\Desktop\Accenture IDMS\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\bundles\default\AndroidManifest.xml:12:22-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\natal\.android\build-cache\7d123a35d0b5d4157c8942fc80e83eb2ebd66421\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\natal\.android\build-cache\7d123a35d0b5d4157c8942fc80e83eb2ebd66421\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\natal\.android\build-cache\7d123a35d0b5d4157c8942fc80e83eb2ebd66421\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\natal\.android\build-cache\7d123a35d0b5d4157c8942fc80e83eb2ebd66421\output\AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Administrator\.android\build-cache\7b823339d3889fb3a02ccd61afcae72cd671cb07\output\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\natal\.android\build-cache\edfc385ef99cbceebcd32cb87c3b36f961d116b2\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Administrator\.android\build-cache\7b823339d3889fb3a02ccd61afcae72cd671cb07\output\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\natal\.android\build-cache\edfc385ef99cbceebcd32cb87c3b36f961d116b2\output\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Administrator\.android\build-cache\7b823339d3889fb3a02ccd61afcae72cd671cb07\output\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\natal\.android\build-cache\edfc385ef99cbceebcd32cb87c3b36f961d116b2\output\AndroidManifest.xml:20:20-65

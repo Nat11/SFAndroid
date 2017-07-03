@@ -22,6 +22,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
@@ -31,11 +32,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- TODO: Remove the -sdk-23 tag when the minsdk version is 23 -->
     <uses-permission-sdk-23 android:name="android.permission.USE_FINGERPRINT" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name="com.testapp.android.MainApplication"
+        android:name="com.testapp.android.SFMain.MainApplication"
         android:icon="@drawable/sf__icon"
         android:label="@string/app_name"
         android:manageSpaceActivity="com.salesforce.androidsdk.ui.ManageSpaceActivity"
@@ -43,19 +43,35 @@
 
         <!-- Launcher screen -->
         <activity android:name="com.testapp.android.Main2Activity" />
-        <activity android:name="com.testapp.android.RedirectActivity" >
+        <activity
+            android:name="com.testapp.android.RedirectActivity"
+            android:configChanges="orientation|screenSize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.testapp.android.client.ClientActivity" />
-        <activity android:name="com.testapp.android.subcontractor.SubcontractorActivity" />
         <activity
             android:name="com.testapp.android.client.ClientNavActivity"
-            android:label="@string/title_activity_client_nav"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_client_nav" />
+        <activity
+            android:name="com.testapp.android.subcontractor.SubcontractorNavActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_subcontractor_nav" />
+        <activity
+            android:name="com.testapp.android.subcontractor.SubcontractorActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Asset Registration"
+            android:parentActivityName="com.testapp.android.subcontractor.SubcontractorNavActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.testapp.android.client.ServicesActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Services"
+            android:parentActivityName="com.testapp.android.client.ClientNavActivity"
+            android:windowSoftInputMode="stateHidden" />
         <!-- SmartStore Inspector screen -->
         <activity android:name="com.salesforce.androidsdk.smartstore.ui.SmartStoreInspectorActivity" /> <!-- Metadata for supported app restrictions -->
         <meta-data

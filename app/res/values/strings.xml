@@ -21,8 +21,21 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_navigation">NavigationActivity</string>
-    <string name="title_activity_client_nav">ClientNavActivity</string>
+    <string name="title_activity_client_nav">Client Main</string>
+
+    <string name="choose_services">Please choose a services company to install your assets</string>
+
+    <string name="services_prompt">Services Company</string>
+
+    <string-array name="services_array">
+        <item>Subcontractor</item>
+        <item>Company 2</item>
+        <item>Company 3</item>
+        <item>Company 4</item>
+    </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_subcontractor_nav">SubcontractorNavActivity</string>
+
 </resources>

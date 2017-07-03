@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="android-database-sqlcipher-3.5.2">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/c7ee6be496af4eaf45234b56c5a1dab953aba5ef/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/c7ee6be496af4eaf45234b56c5a1dab953aba5ef/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/83e83bf2a79acf0c30748f6a01a8d2bc9dbcdca2/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/83e83bf2a79acf0c30748f6a01a8d2bc9dbcdca2/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

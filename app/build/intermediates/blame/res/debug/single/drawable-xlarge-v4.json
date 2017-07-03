@@ -1,58 +1,58 @@
 [
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_left_border.xml",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_left_border.xml"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__nav_shadow.png",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__nav_shadow.png"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_refresh.png",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_refresh.png"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__refresh_loader.png",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__refresh_loader.png"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__nav_shadow.png",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__nav_shadow.png"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__toolbar_background.xml",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__toolbar_background.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__toolbar_background.xml",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__toolbar_background.xml"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__progress_spinner.xml",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__progress_spinner.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__progress_spinner.xml",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__progress_spinner.xml"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__oauth_background.png",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__oauth_background.png"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__oauth_background.png",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__oauth_background.png"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_drop_shadow.xml",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_drop_shadow.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__login_content_header.xml",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__login_content_header.xml"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_refresh_press.png",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_refresh_press.png"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_right_border.xml",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_right_border.xml"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_bg.png",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_bg.png"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__refresh_loader.png",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__refresh_loader.png"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_refresh.png",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_refresh.png"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__oauth_container_dropshadow.9.png",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__oauth_container_dropshadow.9.png"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__oauth_container_dropshadow.9.png",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__oauth_container_dropshadow.9.png"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_bg.png",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_bg.png"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_refresh_states.xml",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_refresh_states.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_drop_shadow.xml",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_drop_shadow.xml"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_right_border.xml",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_right_border.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_refresh_states.xml",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_refresh_states.xml"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_left_border.xml",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_left_border.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\TestApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_refresh_press.png",
-        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__header_refresh_press.png"
+        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__login_content_header.xml",
+        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-xlarge-v4\\sf__login_content_header.xml"
     }
 ]

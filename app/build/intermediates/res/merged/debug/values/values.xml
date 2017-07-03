@@ -3,6 +3,12 @@
     <string-array name="oauthScopes">
         <item>api</item>
     </string-array>
+    <string-array name="services_array">
+        <item>Subcontractor</item>
+        <item>Company 2</item>
+        <item>Company 3</item>
+        <item>Company 4</item>
+    </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -111,6 +117,7 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <color name="black">#000000</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -120,8 +127,8 @@
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#61B864</color>
+    <color name="colorPrimaryDark">#338437</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -778,6 +785,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="choose_services">Please choose a services company to install your assets</string>
     <string name="clear_button">Clear</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
@@ -811,6 +819,7 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="remoteAccessConsumerKey">3MVG9HxRZv05HarQDPBs35iIOdPkbqwZy53kfpgnr9_xyF8b2ogz0HFZvRRKzjT4Ltdja9BThReBmwje5McpF</string>
     <string name="search_menu_title">Search</string>
+    <string name="services_prompt">Services Company</string>
     <string name="sf__access_token_revoked">Your access token has been revoked by the administrator. You will now be logged out.</string>
     <string name="sf__add_new_account">Add New Account</string>
     <string name="sf__app_service_host_labels_description">Used to specify login host labels for the application.</string>
@@ -887,9 +896,10 @@
     <string name="sf__ssl_untrusted">Untrusted Certificate Authority</string>
     <string name="sf__switch_account">Switch Account</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="title_activity_client_nav">ClientNavActivity</string>
+    <string name="title_activity_client_nav">Client Main</string>
     <string name="title_activity_nav">NavActivity</string>
     <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_subcontractor_nav">SubcontractorNavActivity</string>
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
@@ -906,7 +916,7 @@
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorPrimary</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.NoActionBar">
