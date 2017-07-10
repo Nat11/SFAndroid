@@ -32,12 +32,12 @@
         android:theme="@style/AppTheme">
 
         <!-- Launcher screen -->
-        <activity android:name=".Main2Activity" />
         <activity
             android:name=".RedirectActivity"
             android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -50,10 +50,10 @@
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_subcontractor_nav" />
         <activity
-            android:name=".subcontractor.SubcontractorActivity"
+            android:name=".subcontractor.AssetActivity"
             android:configChanges="orientation|screenSize"
             android:label="Asset Registration"
-            android:parentActivityName=".subcontractor.SubcontractorNavActivity"
+            android:parentActivityName=".subcontractor.ClientSelectActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".client.ServicesActivity"
@@ -61,6 +61,14 @@
             android:label="Services"
             android:parentActivityName=".client.ClientNavActivity"
             android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".subcontractor.TokenActivity" />
+        <activity
+            android:name=".subcontractor.ClientSelectActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Select your customer"
+            android:parentActivityName=".subcontractor.SubcontractorNavActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".subcontractor.SFAssetsActivity"></activity>
     </application>
 
 </manifest>

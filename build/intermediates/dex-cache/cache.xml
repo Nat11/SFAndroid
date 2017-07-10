@@ -3,237 +3,120 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\libs\activation.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.auth0\java-jwt\3.2.0\41210fc185ab751c4872266e04fc8f19376c8a29\java-jwt-3.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\activation_c33fa38affead7091b440c384e7c3799f707fc99\classes.dex" />
+        sha1="41210fc185ab751c4872266e04fc8f19376c8a29">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\java-jwt-3.2.0_34f87d9c09b3ec63241886f4ab73b2912830417e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\79bee7648b191baef4292cfc20d73de61969c632\output\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.jsonwebtoken\jjwt\0.7.0\f042fe2676bfdc2091545152e47d77e11999946d\jjwt-0.7.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e51c2f662bb72419632af5192553c37e33890a99">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_efbf47e829a1e24a55f9b20b04a55d9e08c84d99\classes.dex" />
+        sha1="f042fe2676bfdc2091545152e47d77e11999946d">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\jjwt-0.7.0_76fa6d2c927d3fbb5d2a630d5e34cfe4c1fb43bc\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\e0699bb5674b2672a605c005cba7eff1e7567e6f\output\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcprov-jdk15on\1.55\935f2e57a00ec2c489cbd2ad830d4a399708f979\bcprov-jdk15on-1.55.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_207343df934c33a2c7b7cfadfeb8caa140b6e80a\classes.dex" />
+        sha1="935f2e57a00ec2c489cbd2ad830d4a399708f979">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\bcprov-jdk15on-1.55_8c0d5b65a658c246108d16d6945f2814831045f4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7d2ae63e20f49df622cc9a0ef3ec927603bff2e3">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_39d5442c2bb5ea7484c7c002caa6f7fe767ad8a2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.6.0_4651543586b61455e1fe5cbacbef8f728bd0f198\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.11.0_158f051bd53eb1f51b9c31cd82b24a34acf035a6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\edfc385ef99cbceebcd32cb87c3b36f961d116b2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aec288a87054a19373f5f376837ad75c45eee81f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\libs\additionnal.jar"
+        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\libs\additionnal.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\additionnal_74f6203e23539412cd3a4413cfd5a5e9b598ec89\classes.dex" />
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\additionnal_b927338ae46d23e75e22e8a571aad40d375931dc\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\7def6dadfc8c8d8199bb26b1f3267c0768c521a4\output\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.8.4\ca365c0817cc345ea831cae7c4e9b42a72b32281\jackson-core-2.8.4.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d1354b8b53c9e1ffa6f52dcc08e8373440b31de8\classes.dex" />
+        sha1="ca365c0817cc345ea831cae7c4e9b42a72b32281">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.8.4_b673bea3e8e837fe48b50ce3829a7f4e25305b43\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\b694f624b59090bcea961dc059403ca7400fdd4a\output\jars\classes.jar"
+        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\libs\activation.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_11450e5c26616aa42ed149748e70a6baac71e234\classes.dex" />
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\activation_2972752e3a9008bddc96f0d44146bea1f1ec3da6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\b895cf81af593b34d4154e24b367c6cd1b17ca59\output\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.8.0\45b426f7796b741035581a176744d91090e2e6fb\jackson-annotations-2.8.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_907e1469182b5cb38ec7d4861249f7b61551cd0f\classes.dex" />
+        sha1="45b426f7796b741035581a176744d91090e2e6fb">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.8.0_bf9a921836bdaf1d6a32bb0407deabf4ae59d7b0\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\5a5877fd414e36431e212af835a5d7578dd1d579\output\jars\classes.jar"
+        jar="H:\Android\gradle\m2repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0c175407604d581cf4dfcbfdde4c812b21f34406\classes.dex" />
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-codec-1.10_313cef03b37f84e65ffbc826b3f8ff82c346a946\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\7530703360876bce7fe07be57e5ce522bae3e1d6\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_59274858feb78f2b7dd4a326212920b95e5d1943\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_4e38805f3a182d20e45dc26881ad7718c2f2c27c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\83e83bf2a79acf0c30748f6a01a8d2bc9dbcdca2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e7ecee496793b4020ffe5052331a7efb075f5a73">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_87512b97ef27fbc0324744d25a3ce7c05b8b2a4b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\a218a23d471290aa3f81a44371d828c9f7704c52\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7a8d911c4885e4a69e3c2034edf4bb447e4a1b06\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\efe683d41b88c78daf9919c763b40f9cc8b56765\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9d25d00cd3dde7f28c5fcd95a144d15eb0c1397a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\27391ba8331b7193f71e88f38ce242a3575544e5\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c934113b4e3392abca66ef03656673b58786cf7d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\35a477132902d2173113b6d6e64fe2eec634b0bd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8c3333c49e338fe6accc2c6885e91f034349bce\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\7d123a35d0b5d4157c8942fc80e83eb2ebd66421\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9dfffb8f77bbc6090378d1926a8d216aecda7a6c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\05b2ae3858de16324d3e9622432933a538943bb2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82e00a835beeb3cfc5f7c33900636fbee8db8d7e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\49377a3a0e3dc3232e0b9d7392813163c6cc45f4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4ec9f1c83b2929cbe641bda87713a0d6635f4771\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\libs\mail.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="428e267abff0d10802ccde86b915da2c20471160">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\mail_0357772580e531045a7d5265bf796fca63dee0b8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1b9118d5611d214ebe1f5ad1c0d871d5e5598122\classes.dex" />
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9c5b3f9f22e422a967358c4a9266afed59eec69e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\606ddad53e7e6f042cb4087a39622340fa56cb4a\output\jars\classes.jar"
+        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c4fb52963803db63476e36147e2a85f4fa7f631c\classes.dex" />
+        sha1="07061d45fd87b4e9f37ea00bca0ba4aadf379872">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2ceb2ce1bb92598350f7ebcbc478c700b2bfb148\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\natal\.android\build-cache\a44f4ac5c3a562bf5547cb746bb246842485f858\output\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7504c41f1dac4e116a5ccfcdf9e099fdf8be5446\classes.dex" />
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.19_78f0bb23743784ba5177d1b9659f6fa6d6a7bd06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.8.4\1c36c81e79cacdf48116afba8495e3393d267ba1\jackson-databind-2.8.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1c36c81e79cacdf48116afba8495e3393d267ba1">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.8.4_17f3f991b62f58d32f2bacd4d574b62338a0a6b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\libs\mail.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\mail_10637e79d8a4daab781a279df6e1f06034f77763\classes.dex" />
     </item>
 
 </items>

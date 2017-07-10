@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.testapp.android.subcontractor.TokenActivity">
+
+    <TextView
+        android:id="@+id/assetToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="By Clicking the button below, an asset token is generated and returned by Salesforce"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/getAssetToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="Get Asset Token"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>

@@ -58,6 +58,9 @@ public class ClientNavActivity extends SalesforceActivity
         progressDialog.setMessage("Loading...");
         progressDialog.setCanceledOnTouchOutside(false);
 
+        Log.d("at cl", client.getAuthToken());
+
+
         tvUser = (TextView) findViewById(R.id.sfUser);
         tvContact = (TextView) findViewById(R.id.sfContact);
         tvAccount = (TextView) findViewById(R.id.sfAccount);
@@ -74,7 +77,6 @@ public class ClientNavActivity extends SalesforceActivity
         progressDialog.show();
         String userId = client.getClientInfo().userId;
         sendRequest("SELECT Name, ContactId FROM User WHERE Id='" + userId + "'", "ContactId", "fn");
-
     }
 
     public void onFetchContactUser(String contactId) throws UnsupportedEncodingException {
@@ -84,7 +86,6 @@ public class ClientNavActivity extends SalesforceActivity
     public void onFetchAccountUser(String accountId) throws UnsupportedEncodingException {
         sendRequest("SELECT Id, Name FROM Account WHERE Id='" + accountId + "'", "Id", "an");
         progressDialog.dismiss();
-
     }
 
     private void sendRequest(String soql, final String sfId, final String action) throws UnsupportedEncodingException {
@@ -176,21 +177,12 @@ public class ClientNavActivity extends SalesforceActivity
 
         } else if (id == R.id.logout) {
             SalesforceSDKManager.getInstance().logout(this);
+            finish();
+            moveTaskToBack(true);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
-    @Override
-    public void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        outState.putString("userName", tvUser.getText().toString());
-        outState.putString("userContact", tvContact.getText().toString());
-        outState.putString("userAccount", tvAccount.getText().toString());
-
-    }
-
-
 }

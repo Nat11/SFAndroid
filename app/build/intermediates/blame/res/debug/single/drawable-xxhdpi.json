@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\drawer_shadow.9.png",
-        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\res\\drawable-xxhdpi\\drawer_shadow.9.png"
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_drawer.png",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\drawable-xxhdpi\\ic_drawer.png"
     },
     {
-        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_drawer.png",
-        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\res\\drawable-xxhdpi\\ic_drawer.png"
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\drawer_shadow.9.png",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\drawable-xxhdpi\\drawer_shadow.9.png"
     }
 ]

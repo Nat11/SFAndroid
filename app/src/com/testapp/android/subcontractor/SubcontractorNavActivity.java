@@ -46,6 +46,10 @@ public class SubcontractorNavActivity extends SalesforceActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
 
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Loading...");
+        progressDialog.setCanceledOnTouchOutside(false);
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -59,9 +63,8 @@ public class SubcontractorNavActivity extends SalesforceActivity
     @Override
     public void onResume(RestClient client) {
         this.client = client;
-        progressDialog = new ProgressDialog(this);
-        progressDialog.setMessage("Loading...");
-        progressDialog.setCanceledOnTouchOutside(false);
+        Log.d("accessToken", client.getAuthToken());
+
         tvUser = (TextView) findViewById(R.id.sfUser);
         tvContact = (TextView) findViewById(R.id.sfContact);
         tvAccount = (TextView) findViewById(R.id.sfAccount);
@@ -100,7 +103,6 @@ public class SubcontractorNavActivity extends SalesforceActivity
                     @Override
                     public void run() {
                         try {
-                            Log.d("result", result.toString());
                             JSONArray records = result.asJSONObject().getJSONArray("records");
                             String name = records.getJSONObject(0).getString("Name");
                             String id = records.getJSONObject(0).getString(sfId);
@@ -164,10 +166,14 @@ public class SubcontractorNavActivity extends SalesforceActivity
         if (id == R.id.monitor) {
 
         } else if (id == R.id.register) {
-            startActivity(new Intent(SubcontractorNavActivity.this, SubcontractorActivity.class));
+            startActivity(new Intent(SubcontractorNavActivity.this, AssetActivity.class));
 
         } else if (id == R.id.logout) {
             SalesforceSDKManager.getInstance().logout(this);
+            finish();
+            moveTaskToBack(true);
+        } else if (id == R.id.assets) {
+            startActivity(new Intent(SubcontractorNavActivity.this, SFAssetsActivity.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

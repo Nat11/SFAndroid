@@ -129,6 +129,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorPrimary">#61B864</color>
     <color name="colorPrimaryDark">#338437</color>
+    <color name="colorRow">#d9d9d9</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -209,6 +210,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="white">#FFFFFF</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -895,6 +897,7 @@
     <string name="sf__ssl_unknown_error">Unknown Error</string>
     <string name="sf__ssl_untrusted">Untrusted Certificate Authority</string>
     <string name="sf__switch_account">Switch Account</string>
+    <string name="start_pairing">Make sure pairing mode is activated on your device</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_client_nav">Client Main</string>
     <string name="title_activity_nav">NavActivity</string>

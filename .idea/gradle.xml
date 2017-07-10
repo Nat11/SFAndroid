@@ -10,10 +10,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/libs" />
-            <option value="$PROJECT_DIR$/../SalesforceMobileSDK-Android/libs/SalesforceAnalytics" />
-            <option value="$PROJECT_DIR$/../SalesforceMobileSDK-Android/libs/SalesforceSDK" />
-            <option value="$PROJECT_DIR$/../SalesforceMobileSDK-Android/libs/SmartStore" />
-            <option value="$PROJECT_DIR$/../SalesforceMobileSDK-Android/libs/SmartSync" />
+            <option value="$PROJECT_DIR$/../../SalesforceMobileSDK-Android/libs/SalesforceAnalytics" />
+            <option value="$PROJECT_DIR$/../../SalesforceMobileSDK-Android/libs/SalesforceSDK" />
+            <option value="$PROJECT_DIR$/../../SalesforceMobileSDK-Android/libs/SmartStore" />
+            <option value="$PROJECT_DIR$/../../SalesforceMobileSDK-Android/libs/SmartSync" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

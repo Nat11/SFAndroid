@@ -3,13 +3,16 @@ apply plugin: 'android'
 dependencies {
     compile project(':libs:SmartSync')
     // From node_modules
-    compile files('C:/Users/natal/Desktop/Accenture IDMS/SFAndroid/libs/additionnal.jar')
-    compile files('C:/Users/natal/Desktop/Accenture IDMS/SFAndroid/libs/activation.jar')
-    compile files('C:/Users/natal/Desktop/Accenture IDMS/SFAndroid/libs/mail.jar')
+    compile files('H:/Desktop/Accenture IDMS/Android/SFAndroid/libs/activation.jar')
+    compile files('H:/Desktop/Accenture IDMS/Android/SFAndroid/libs/additionnal.jar')
+    compile files('H:/Desktop/Accenture IDMS/Android/SFAndroid/libs/mail.jar')
     compile 'com.android.support:appcompat-v7:25.2.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:design:25.2.0'
     compile 'com.android.support:support-v4:25.2.0'
+    compile 'io.jsonwebtoken:jjwt:0.7.0'
+    compile 'com.auth0:java-jwt:3.2.0'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
 }
 
 android {

@@ -4,15 +4,23 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/monitor"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@drawable/ic_monitor"
+            android:checkable="false"
             android:title="Monitor" />
         <item
             android:id="@+id/register"
             android:icon="@drawable/ic_menu_manage"
+            android:checkable="false"
             android:title="Register Asset" />
+        <item
+            android:id="@+id/assets"
+            android:checkable="false"
+            android:icon="@drawable/ic_asset"
+            android:title="Assets" />
         <item
             android:id="@+id/logout"
             android:icon="@drawable/ic_signout_circle"
+            android:checkable="false"
             android:title="Logout" />
     </group>
 

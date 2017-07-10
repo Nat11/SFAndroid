@@ -1,6 +1,6 @@
 rootProject.name = 'TestApp'
 
-def libsRootDir = new File( settingsDir, '../SalesforceMobileSDK-Android/libs' )
+def libsRootDir = new File( settingsDir, '../../SalesforceMobileSDK-Android/libs' )
 include ':app'
 
 include ':libs:SalesforceAnalytics'

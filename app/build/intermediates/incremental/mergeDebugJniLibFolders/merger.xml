@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\natal\Desktop\Accenture IDMS\SFAndroid\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\src\debug\jniLibs"/></dataSet></merger>

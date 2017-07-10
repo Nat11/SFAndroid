@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\xml\\servers.xml",
-        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\res\\xml\\servers.xml"
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\xml\\app_restrictions.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\xml\\app_restrictions.xml"
     },
     {
-        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\xml\\authenticator.xml",
-        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\xml\\authenticator.xml"
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\xml\\servers.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\xml\\servers.xml"
     },
     {
-        "merged": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\xml\\app_restrictions.xml",
-        "source": "C:\\Users\\natal\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\xml\\app_restrictions.xml"
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\xml\\authenticator.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\xml\\authenticator.xml"
     }
 ]

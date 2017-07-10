@@ -42,7 +42,6 @@
         android:theme="@style/AppTheme" >
 
         <!-- Launcher screen -->
-        <activity android:name="com.testapp.android.Main2Activity" />
         <activity
             android:name="com.testapp.android.RedirectActivity"
             android:configChanges="orientation|screenSize" >
@@ -61,10 +60,10 @@
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_subcontractor_nav" />
         <activity
-            android:name="com.testapp.android.subcontractor.SubcontractorActivity"
+            android:name="com.testapp.android.subcontractor.AssetActivity"
             android:configChanges="orientation|screenSize"
             android:label="Asset Registration"
-            android:parentActivityName="com.testapp.android.subcontractor.SubcontractorNavActivity"
+            android:parentActivityName="com.testapp.android.subcontractor.ClientSelectActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.testapp.android.client.ServicesActivity"
@@ -72,6 +71,14 @@
             android:label="Services"
             android:parentActivityName="com.testapp.android.client.ClientNavActivity"
             android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.testapp.android.subcontractor.TokenActivity" />
+        <activity
+            android:name="com.testapp.android.subcontractor.ClientSelectActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Select your customer"
+            android:parentActivityName="com.testapp.android.subcontractor.SubcontractorNavActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.testapp.android.subcontractor.SFAssetsActivity" />
         <!-- SmartStore Inspector screen -->
         <activity android:name="com.salesforce.androidsdk.smartstore.ui.SmartStoreInspectorActivity" /> <!-- Metadata for supported app restrictions -->
         <meta-data
