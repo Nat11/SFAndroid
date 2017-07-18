@@ -53,7 +53,7 @@
             android:name=".subcontractor.AssetActivity"
             android:configChanges="orientation|screenSize"
             android:label="Asset Registration"
-            android:parentActivityName=".subcontractor.ClientSelectActivity"
+            android:parentActivityName=".subcontractor.SubcontractorNavActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".client.ServicesActivity"
@@ -61,14 +61,33 @@
             android:label="Services"
             android:parentActivityName=".client.ClientNavActivity"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".subcontractor.TokenActivity" />
+        <activity
+            android:name=".subcontractor.TokenActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Asset Token"
+            android:parentActivityName=".subcontractor.SubcontractorNavActivity" />
         <activity
             android:name=".subcontractor.ClientSelectActivity"
             android:configChanges="orientation|screenSize"
             android:label="Select your customer"
             android:parentActivityName=".subcontractor.SubcontractorNavActivity"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".subcontractor.SFAssetsActivity"></activity>
+        <activity
+            android:name=".subcontractor.SFAssetsActivity"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".subcontractor.SubcontractorNavActivity" />
+        <activity
+            android:name=".subcontractor.RequestDetailsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Request"
+            android:parentActivityName=".subcontractor.RequestsActivity" />
+        <activity
+            android:name=".subcontractor.RequestsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_requests"
+            android:parentActivityName=".subcontractor.SubcontractorNavActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".client.PurchaseActivity"></activity>
     </application>
 
 </manifest>

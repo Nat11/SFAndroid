@@ -34,6 +34,20 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <permission
+        android:name="com.testapp.android.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.testapp.android.permission.C2D_MESSAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
     <application
         android:name="com.testapp.android.SFMain.MainApplication"
         android:icon="@drawable/sf__icon"
@@ -63,7 +77,7 @@
             android:name="com.testapp.android.subcontractor.AssetActivity"
             android:configChanges="orientation|screenSize"
             android:label="Asset Registration"
-            android:parentActivityName="com.testapp.android.subcontractor.ClientSelectActivity"
+            android:parentActivityName="com.testapp.android.subcontractor.SubcontractorNavActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.testapp.android.client.ServicesActivity"
@@ -71,14 +85,34 @@
             android:label="Services"
             android:parentActivityName="com.testapp.android.client.ClientNavActivity"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name="com.testapp.android.subcontractor.TokenActivity" />
+        <activity
+            android:name="com.testapp.android.subcontractor.TokenActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Asset Token" />
         <activity
             android:name="com.testapp.android.subcontractor.ClientSelectActivity"
             android:configChanges="orientation|screenSize"
             android:label="Select your customer"
             android:parentActivityName="com.testapp.android.subcontractor.SubcontractorNavActivity"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name="com.testapp.android.subcontractor.SFAssetsActivity" />
+        <activity
+            android:name="com.testapp.android.subcontractor.SFAssetsActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.testapp.android.subcontractor.RequestDetailsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Request"
+            android:parentActivityName="com.testapp.android.subcontractor.RequestsActivity" />
+        <activity
+            android:name="com.testapp.android.subcontractor.RequestsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_requests"
+            android:parentActivityName="com.testapp.android.client.ClientNavActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".subcontractor.SubcontractorNavActivity" />
+        </activity>
         <!-- SmartStore Inspector screen -->
         <activity android:name="com.salesforce.androidsdk.smartstore.ui.SmartStoreInspectorActivity" /> <!-- Metadata for supported app restrictions -->
         <meta-data
@@ -156,7 +190,128 @@
             android:exported="false" />
         <service
             android:name="com.salesforce.androidsdk.analytics.AnalyticsPublisherService"
+            android:exported="false" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+
+        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.gms.tagmanager.TagManagerService"
+            android:enabled="true"
             android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+            android:exported="true"
+            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+            <intent-filter>
+                <data android:scheme="tagmanager.c.com.testapp.android" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.testapp.android" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.testapp.android.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

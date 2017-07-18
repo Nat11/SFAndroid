@@ -1,4 +1,4 @@
-#Mon Jul 10 16:32:48 CEST 2017
+#Mon Jul 17 11:09:49 CEST 2017
 base.0=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
 renamed.0=classes.dex
 file.0=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

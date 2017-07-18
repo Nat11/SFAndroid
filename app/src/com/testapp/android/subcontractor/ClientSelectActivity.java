@@ -30,7 +30,7 @@ public class ClientSelectActivity extends SalesforceListActivity implements View
 
     private RestClient client;
     private ArrayAdapter<String> listAdapter;
-    private String did, tokenName, serialNumber, assetName, contactId = "", accountId = "";
+    private String did, tokenName, serialNumber, assetName, assetType, assetLocation, contactId = "", accountId = "", requestId;
     private static List<String> contactKey = new ArrayList<>();
     private static List<String> accountKey = new ArrayList<>();
     Button btnCreateToken;
@@ -42,12 +42,16 @@ public class ClientSelectActivity extends SalesforceListActivity implements View
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("Select your Customer");
         toolbar.showOverflowMenu();
-        listAdapter = new ArrayAdapter<String>(this, R.layout.listrow, new ArrayList<String>());
+        listAdapter = new ArrayAdapter<String>(this, R.layout.clientlistrow, new ArrayList<String>());
         setListAdapter(listAdapter);
         did = getIntent().getStringExtra("did");
         tokenName = getIntent().getStringExtra("tokenName");
         serialNumber = getIntent().getStringExtra("sn");
         assetName = getIntent().getStringExtra("assetName");
+        assetType = getIntent().getStringExtra("assetType");
+        assetLocation = getIntent().getStringExtra("assetLocation");
+        requestId = getIntent().getStringExtra("requestId");
+
         btnCreateToken = (Button) findViewById(R.id.btn_createToken);
         btnCreateToken.setOnClickListener(this);
     }
@@ -106,7 +110,6 @@ public class ClientSelectActivity extends SalesforceListActivity implements View
     protected void onListItemClick(ListView l, View v, int position, long id) {
         //super.onListItemClick(l, v, position, id);
         v.setSelected(true);
-        //l.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
         contactId = contactKey.get(position);
     }
 
@@ -117,7 +120,7 @@ public class ClientSelectActivity extends SalesforceListActivity implements View
 
     @Override
     public void onBackPressed() {
-        startActivity(new Intent(ClientSelectActivity.this, AssetActivity.class));
+        startActivity(new Intent(ClientSelectActivity.this, SubcontractorNavActivity.class));
     }
 
     @Override
@@ -138,14 +141,15 @@ public class ClientSelectActivity extends SalesforceListActivity implements View
         Intent i = new Intent(ClientSelectActivity.this, TokenActivity.class);
 
         if (contactId.trim().equals(""))
-            actorToken = new jwtToken().createTokenNoContact(did, tokenName, accountId, serialNumber, assetName);
+            actorToken = new jwtToken().createTokenNoContact(did, tokenName, accountId, serialNumber, assetName, assetType, assetLocation);
 
         else if (accountId.trim().equals("") && contactId.trim().equals(""))
             Toast.makeText(this, "Error retrieving Account information", Toast.LENGTH_SHORT).show();
 
         else
-            actorToken = new jwtToken().createToken(did, tokenName, accountId, serialNumber, contactId, assetName);
+            actorToken = new jwtToken().createToken(did, tokenName, accountId, serialNumber, contactId, assetName, assetType, assetLocation);
 
+        i.putExtra("requestId", requestId);
         i.putExtra("actorToken", actorToken);
         startActivity(i);
     }

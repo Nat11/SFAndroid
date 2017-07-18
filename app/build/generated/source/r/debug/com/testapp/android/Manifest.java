@@ -15,6 +15,6 @@ public final class Manifest {
         the format <app-package-name>.C2D_MESSAGE for it to work.
     
          */
-        public static final String C2D_MESSAGE="com.testapp.android.C2D_MESSAGE";
+        public static final String C2D_MESSAGE="com.testapp.android.permission.C2D_MESSAGE";
     }
 }

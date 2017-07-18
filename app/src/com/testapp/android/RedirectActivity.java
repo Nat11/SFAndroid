@@ -69,6 +69,9 @@ public class RedirectActivity extends SalesforceActivity {
                                 case "subcontractor":
                                     startActivity(new Intent(RedirectActivity.this, SubcontractorNavActivity.class));
                                     break;
+
+                                default:
+                                    Toast.makeText(RedirectActivity.this, "Unauthorized access", Toast.LENGTH_SHORT).show();
                             }
 
                         } catch (Exception e) {

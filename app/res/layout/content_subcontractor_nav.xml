@@ -10,47 +10,47 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <RelativeLayout
             android:id="@+id/profile_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:background="#81C784"
             android:elevation="4dp"
             android:paddingBottom="24dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
 
             <TextView
                 android:id="@+id/sfUser"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/profile_image"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="40dp"
-                android:text="Welcome "
+                android:layout_marginTop="30dp"
                 android:textColor="#fff"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
         </RelativeLayout>
 
-
         <LinearLayout
+            android:id="@+id/contactInfoLayout"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_below="@+id/profile_layout"
             android:layout_marginTop="5dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/sfContact"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="#fff"
-                android:clickable="true"
-                android:elevation="4dp"
-                android:padding="20dp"
-                android:text="Contact: " />
+            android:orientation="vertical"
+            android:weightSum="1">
 
             <TextView
                 android:id="@+id/sfAccount"
@@ -62,10 +62,26 @@
                 android:background="#fff"
                 android:clickable="true"
                 android:elevation="4dp"
-                android:padding="20dp"
-                android:text="Account: " />
-
+                android:padding="20dp" />
         </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/newRequestLayout"
+            android:layout_width="match_parent"
+            android:layout_below="@id/contactInfoLayout"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/newRequests"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="20dp"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
     </RelativeLayout>
 
 </ScrollView>

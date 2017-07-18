@@ -3,15 +3,23 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/purchase"
+            android:checkable="false"
+            android:icon="@drawable/ic_add_shopping_cart_black_36dp"
+            android:title="Services" />
+        <item
             android:id="@+id/monitor"
-            android:icon="@drawable/ic_menu_send"
+            android:checkable="false"
+            android:icon="@drawable/ic_monitor"
             android:title="Monitor" />
         <item
             android:id="@+id/services"
+            android:checkable="false"
             android:icon="@drawable/ic_menu_manage"
             android:title="Services" />
         <item
             android:id="@+id/logout"
+            android:checkable="false"
             android:icon="@drawable/ic_signout_circle"
             android:title="Logout" />
     </group>

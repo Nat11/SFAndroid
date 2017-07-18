@@ -3,57 +3,300 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.auth0\java-jwt\3.2.0\41210fc185ab751c4872266e04fc8f19376c8a29\java-jwt-3.2.0.jar"
+        jar="C:\Users\Administrator\.android\build-cache\e37c6203ccd78858b9a5b8cc02034b149e1aac57\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="41210fc185ab751c4872266e04fc8f19376c8a29">
-        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\java-jwt-3.2.0_34f87d9c09b3ec63241886f4ab73b2912830417e\classes.dex" />
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_36bca0b91195049fa17a8c0a71abf5169c98f049\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.jsonwebtoken\jjwt\0.7.0\f042fe2676bfdc2091545152e47d77e11999946d\jjwt-0.7.0.jar"
+        jar="C:\Users\Administrator\.android\build-cache\ab5e9cbdf1cbb96576621b52c510eaeefe555748\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f042fe2676bfdc2091545152e47d77e11999946d">
-        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\jjwt-0.7.0_76fa6d2c927d3fbb5d2a630d5e34cfe4c1fb43bc\classes.dex" />
+        sha1="9a6350134db98fb39e212ddca5f0bad9280e8f3f">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7185f6c9d67c47c843ed3309b3b1596d289a07e3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcprov-jdk15on\1.55\935f2e57a00ec2c489cbd2ad830d4a399708f979\bcprov-jdk15on-1.55.jar"
+        jar="C:\Users\Administrator\.android\build-cache\1f1cd8939b5a4d43da901bc0eaab855333996831\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="935f2e57a00ec2c489cbd2ad830d4a399708f979">
-        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\bcprov-jdk15on-1.55_8c0d5b65a658c246108d16d6945f2814831045f4\classes.dex" />
+        sha1="3f813cc0713085e46735bcabf9def2ffb6419de7">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d72a11681be74d40fa64c1d049667d70bf295850\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\libs\additionnal.jar"
+        jar="C:\Users\Administrator\.android\build-cache\cbd29dc3cfb2ac1d3b14bb5f8564445701cfda01\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
-        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\additionnal_b927338ae46d23e75e22e8a571aad40d375931dc\classes.dex" />
+        sha1="2a2d9cd43adbe7599a78f2293273a77881c1909a">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_684aedea466193992d22e139666a91ef7c458319\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.8.4\ca365c0817cc345ea831cae7c4e9b42a72b32281\jackson-core-2.8.4.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.8.2\1f12816593c1422be957471c98a80bfbace60fa2\jackson-databind-2.8.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ca365c0817cc345ea831cae7c4e9b42a72b32281">
-        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.8.4_b673bea3e8e837fe48b50ce3829a7f4e25305b43\classes.dex" />
+        sha1="1f12816593c1422be957471c98a80bfbace60fa2">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.8.2_012057070a98ac2851a2b22aaa547aa2c42173d4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\libs\activation.jar"
+        jar="C:\Users\Administrator\.android\build-cache\5af1cf9885e1dc1965e8927f334c955ccb55dfd9\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
-        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\activation_2972752e3a9008bddc96f0d44146bea1f1ec3da6\classes.dex" />
+        sha1="86e2c2399cfd7f8271b535b0e7d8ec092d0c6335">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1986b7db40d380c4ce51bfbc0f75aca34326119f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\7a37a4a0cc88050b45d98c61f98a09231ac1dc77\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f260cdc1a267b17b911022919f19d568e6624229">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a191f05108326b2e55d2aeb6d127261c28c8c8db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e7aa550ab2a8097a60139ffc8b40a37c032b43ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\9c86f53f42eb51bc70c04bb36184b00ac4123a89\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="976b0a037981a05e685415093c67ad73c94d4846">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9066d877450c87abead41bf10eed77f6c2455dc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_77bbafad21bc1ac169e6a221a15373f3eab9dd96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\2f5158557d9811e291f2f4a0c78bd4094312818e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="50fde88f529e2c238d72467da774e113f47dc866">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d2ee9341fa85d6df6545bba5a8ee185b35ce702\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\fbbe6dbfa94c689b38428ff8929b5d714f0e0d09\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1fd6dc27f1ebe5bdbf26aa54773d11327f91532b">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4e9dc1b723de349530b1da24a819cf08333ed56f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\ab9ed744cbd01b9398ecc221c8f2ef0ca45d2cde\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c6a0af36142b32d1f81ab099b73e90a25e360e2">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8020b311868ce68e0dbef252373691c3cc36e069\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\435a3c6d57a39adf0aa3384877a08e70012164f1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5493a7c08b74d424d08a23c68334893cfd2d5ee3">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_60fb88271edf0707e07a2b9c71ec050775c9405d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\a8c8f70bf778cb2bce2254246daf75336dd0a925\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d3a27693b28b46af644df8ce765f4252b32c9e87">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_458dc78a292546ee67e08c06e76c23618d16e19f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\aba98b039db30b382fdac02011667ca8a364c60e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15857dce424132cb53e37cba16b9d587a6c5c568">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cd09b3e8c2b6227096f18339ce153180e064d60b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\40f3ece19f0e7a28f864b265024d8859faf37cd4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="79a435f1c45ac04593a5134d70da983305584e90">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e6b358a7360f2440a04d6d43f31aa7797f81ebfe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\a4174a5e29e1264a988f5c94ab01b1c3a6a17faf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2737331564e0084fc0eb30ba500564a6dbe5e98f">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_77133a5b874c5ac55e5d634d30d1e690a52361c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\libs\mail.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\mail_10637e79d8a4daab781a279df6e1f06034f77763\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\4355fd8f315baf379e091fefdea7547f4d0b0ff6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4262bcd49b19d558c241bf8c68470fcc6fa1ac84">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4a896e26a4e9f35f5b52a7e184ba890e304529a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\ba1cc4f0f1537d3812a20bf69c2048a78ad52773\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dbbba1fc0f6c51382c3fa1f9223d1f6f9144f359">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fbd8af8ce76d62ca20c26228b6ec2581efdd1753\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\e7b64a15860493c7b6c5092dfbe3c53348c22b39\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f909161e9bac1dd36538a275f06cae462082316a">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e983d9769b2614a32b341696056edcddacbee90e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\19d8ea6180f024105d98f9cf3fee08ac259ac1f1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2c1d9fbe7d2f686b3dcdbc3f63a983a211401ca3">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1504274c8147af4004b60a0573a5815e9c83ef7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\5a5c29c3c39c94c99422c67393a701dfb9834485\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03711df0c11eb771a2115c76db9e271eddea1bb8">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_085c60390c920ad9f841ee93db5a3390db9e4bad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\052648bd86f4e123db2b022f6cd7c7485c255a46\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a5da59bfe8bee5a41daa7c26b970b12699ac8db">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9faec7760d341d75959d7a1f97ff9a54ef5d6b5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\fc975b5d9b11a5df8587af94cc47165c6bcb8718\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba90907329e4ed429307d39490927b456838bf08">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_efdadc09b54938027e9d1bae6e36cdc702bc9db9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\2a1f21f081d4f480288fce14b41036d6356f5be2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a9bc3e11fbff8e0d503ff795c12c73e1a6fad7a9">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3b08baf16640435d6a2c42f25afdca7c66846fed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\c22e8e2e89a8c2a3d634e910be7e54ac0b7d82f6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f402ecdc0d23b3b1d267f94ac4667770e8133b9a">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8c52519cb976848d6767932a20a2b887b88b7feb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\cf6a673470b519c6320a9ccf166cbeec6320406c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2df23fb8581e8503db6e33739b450f9eb4a8b30a">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cd319f7b2cc4bec3396f16eb75507ceb3162034e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\c4477de3b5846ae764d5249d21770586cee9bca7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="314299924c4866a8fea850a6ab10a7751fbce79d">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7c71943e190c1a151d3c982ece76acf6243a90db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\59bcfed5307508215a05f8025b8048b7c2531a23\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2bae22c4925830cc03e81f4911f62b445bf132f">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fb8f5ec882945f356ac493736287d5395e677f19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\0343590db79359d3fb40407ee27621e134e5a036\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9be5e957849eb82ad9addf9bdb2896de8bf5654b">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0eca200ecc122fa247085b91224f49c802eba679\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\f076f33cb554a77bf915a05a398e6c094aaf757a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="587840a157b50a6380d814a7a5a87b76118405e2">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e8850a9941beea6ae915b4e535f37d948506f8a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,30 +309,48 @@
     </item>
     <item
         is-multidex="true"
-        jar="H:\Android\gradle\m2repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar"
+        jar="C:\Users\Administrator\.android\build-cache\31a33a82124f946d3584d2de8d50da288acbad47\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
-        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-codec-1.10_313cef03b37f84e65ffbc826b3f8ff82c346a946\classes.dex" />
+        sha1="acaf8846fcf5556493bdbe075b13ea664bb1e9f5">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_712db5998c446b57a4f290bf280ec5c90e0e6048\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Administrator\.android\build-cache\05d3312a9854ed2364bc896ac5f3bbdee06ebd8d\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9c5b3f9f22e422a967358c4a9266afed59eec69e\classes.dex" />
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_55ae3cbeae37fe9e9dea91740fc14a1b0d2b6389\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Administrator\.android\build-cache\a9e270a2bb6f03eb9ca6ccb907077d6fb91e4fe2\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="07061d45fd87b4e9f37ea00bca0ba4aadf379872">
-        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2ceb2ce1bb92598350f7ebcbc478c700b2bfb148\classes.dex" />
+        sha1="e015f5a6691f80b1f71e5299d48933be6a057963">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0bed6d56fa22b4e5a2a37737513e2bbdac47e882\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\2286cdb022c0bf68d7eef799af5b02a3d5737d76\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a3d07dfddc7c3c7547fb953847589d586f1e2077">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_92618bd90cd5c4a97fbedf1b4f9e7da6b758e06d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\b42df1b726cd288fefe88ebdf6ca98cbce195bb3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bef669b76adabe028919f01733fbf7845d1df43b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,21 +363,354 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.8.4\1c36c81e79cacdf48116afba8495e3393d267ba1\jackson-databind-2.8.4.jar"
+        jar="C:\Users\Administrator\.android\build-cache\544bee9937e9aae51e94fe43745c05096fd55cd1\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="1c36c81e79cacdf48116afba8495e3393d267ba1">
-        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.8.4_17f3f991b62f58d32f2bacd4d574b62338a0a6b2\classes.dex" />
+        sha1="543cbd7526b5bf05a5a1be344c53b1994f22a04f">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_66b02e5be4073890fa214f6071ec3fa4b45de619\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\libs\mail.jar"
+        jar="C:\Users\Administrator\.android\build-cache\e051b17e1a78a8e799b41ca8cde68b755807bb6d\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="428e267abff0d10802ccde86b915da2c20471160">
-        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\mail_10637e79d8a4daab781a279df6e1f06034f77763\classes.dex" />
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_13c0120df3ee9f2c203279294cd5a851a7b20bd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\fe7d4015d5459509d3e5d85dcd1187a9527d59cf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="240e5a7c620376184f3168cfdd36315b97b1fe07">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8bded2a07652d49e54d9946947674e1d63800d36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\7dbfddf8f9d39f272f5388a766889320d34b904d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="885bcb023a9b57ed31c305e2e94e31af909e21c5">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6ce9711db07cd4a83d801b641c72595c1ddfa7b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\8332780713a89f5554470b40ab029297559473ed\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="86baa7d1051901fc1b8e7f596732f71f32175bde">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_97052a74b2b353b0e9d836ed4ee928be2b2ac0ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\libs\additionnal.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\additionnal_b927338ae46d23e75e22e8a571aad40d375931dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\6f5dc313ecedf96c7b8d7eebed33ff39ce92537c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="338791f0ad4a30593b69a9d083380ddb6789dd6a">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6726014904fb7ad245b113dada3685aec07549c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\4dcf40c8e9daedd8e0eb211f3ee4b0782c72439c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="af13a350b71b437ebf4be335d02a8f785c39b111">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c98962c7a10a4add1c17f5b78571e1a3241d745\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\b61c1a4d4143872eb94d1e7c7b09e3ee0a32439d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25c862ccc7a67cc4682ea9cacf08918693e915ef">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_93298aed6d5520ab5a57d5aa795b6e22c06b3db7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\87129ff48c79c69e1443e2dbf936933eb9b64013\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e4ff475aad14939684efd3227ec19cd49e90888f">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1eb942c011cdb31ba222bb1dabedfb8f7bf303b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\libs\activation.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\activation_2972752e3a9008bddc96f0d44146bea1f1ec3da6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\afceb2ae33517efee38879947bab860c8bd4d1ad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3a024d39a971d3ce18361aad949dbbf323ec0962\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\d4c5b61f6cc9091675590babbd0c743a2f1cd9b2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3560fc891bbecd8982acbace15ccead59c3fedd1">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f95b34098af5be3b6ef203bc1e2a060806724539\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9c5b3f9f22e422a967358c4a9266afed59eec69e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\8ee8c593fae1d7a0b19478d4d28b626064fc6f15\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_163ce79b88f1b92f2552a647c95097544a0510b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\a0e56af4648da12feddffa5b25ee148e6cc310cf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5bad89ac06f1015490c3332c1cd160be1d17c049">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8e6eb654d65b33a46bbf048e94d8c25713732d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\38ea04ce0fcc1837aee0ccda57bfc3ec0d583803\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4802b21cc23549f7eba5edb802241091ad998b35">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_293acf8ab0b84f72e3be1e95d90cf2e8c81b93be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\9a94c8d88d71854f805142aa189083ce3e906108\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="acd4f9fad8500386084346a88ca47e2b66e84ffd">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5378ec80a3031436f5ec862ce32cf984530030ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\9dcf33cd66f3be1da6681dec1585517bd24419aa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc5624185d414a0f572bfb3df7d841ceb335aef9">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e898d1bf309d6cc5a5cd1d6b66d49d172275cea7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\786bb1d7df483947e1ee72ab9b40d0e8e6bcb5d2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5054ef4084f712f44757bac2d5924247a891f2b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\e33a493cf234f805345036f297faa47f224f508c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="424e509954db08079f78b20947e2cf120c045e48">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0b2a11c22921b34f5cd4559230aeb0b4d93cd41e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\899d8b3bc65aed0708df5c6ddc09b5a71203935a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8e9c14e29702161447ee81bc98fcc3cc2a02b721\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.jsonwebtoken\jjwt\0.7.0\f042fe2676bfdc2091545152e47d77e11999946d\jjwt-0.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f042fe2676bfdc2091545152e47d77e11999946d">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\jjwt-0.7.0_76fa6d2c927d3fbb5d2a630d5e34cfe4c1fb43bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\32a3b0d80715e613bd32050c486a07cddd39f641\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4737d9835cf3ea9751f7d6647be60900062d1062">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f573df030804abcb24b2aa070a1bea8e7e7d860\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\d0f374ab0158adffc35b1f318258a6ae4a81ecee\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7357cef91864a283c8db913866f50bafbe8c6801">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0948300cf30350f74c831ce70b91fe60341203eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\8eda1f92715b13b635e1bdfc46be64bb7c5d64de\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="68a1346f52b0e623460bf2f70c59c59a7a34bcea">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80e0c086f0a0211a05b06a554e96a3b0464381d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\655d29a9689110010580c3eb706f0e97db54f274\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db939a450ea2a721db84e774bf108e20c44a8a1d">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d3078796b174a3ae378ac91e5f60192370dbbf46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\1e6fbd7debe6f25007afe5c2c82ac50230dc8285\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c31a38d7c57c9ea90b2a5514dcb96c204afd3ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\4f04ece8d4075b1decfebf20ee682aede38c293e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ad6a99decfa9a8275638725430ebf2d42c0b00d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\0425d562c94473640fb0b3156ee4c0510828a764\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0cccf7679b2764a849f90e2b581e2ec8d411679f">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b3ae41cb3cad6fa9948632bc1ef7e54879109f04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.8.2\80004060cc6f71a027b81e89ef4d74628f824f\jackson-core-2.8.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0080004060cc6f71a027b81e89ef4d74628f824f">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.8.2_81e0a1694ef21d050d4b3c36bb31c3e9313d3438\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\c561dc781017bfbf9ea5e8fcf0321771682c8841\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a71be5f29a1c1e3fd3e84472742668f101a5b936">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_574fea05845a9b3af47d78c72ceb11a6b08d19fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\afab9e34062d852d3b71a069a96f1828d48b1cfa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b84a791dc9bcda50cb84e4498e0502b3e4dfd47d">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1b116835e9ecc1e1e5d0c669d8f2d237d5365f91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\2117d5434141e27bfde16cb3f0298e151f4d1085\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1375ead4a09ba786d7a2128e2c3d5d41b168be33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2caa1d8fccd8c72390bd3ecc47dba9aefa7d3bdf">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2ceb2ce1bb92598350f7ebcbc478c700b2bfb148\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\5e2a220e91ca6a3bc3ac3dc03e5b35ce531d9457\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cdfe6f00bbbe6bf590b4306017d485d845ffc7e5">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_827a29292c111c9366881982e35c53d5ae6e9ea8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\cfc6af8ea46e20f0263193b3566aa14f3e672651\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e8c74e789b51b9da4070aeaed71bae36c3d244f">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d6e51d055a2d9681ce30e7809a1c8d1a0ea0ff2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\bcd7021a2fca71397016af880680cc2cc28567e8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="H:\Desktop\Accenture IDMS\Android\SFAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b1227c379ba83d6306b52f4089a9b9a43c4e018d\classes.dex" />
     </item>
 
 </items>

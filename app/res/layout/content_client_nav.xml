@@ -10,7 +10,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <RelativeLayout
             android:id="@+id/profile_layout"
@@ -20,19 +20,26 @@
             android:elevation="4dp"
             android:paddingBottom="24dp">
 
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
             <TextView
                 android:id="@+id/sfUser"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/profile_image"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="40dp"
-                android:text="Welcome "
+                android:layout_marginTop="30dp"
                 android:textColor="#fff"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
         </RelativeLayout>
-
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -41,7 +48,7 @@
             android:layout_marginTop="5dp"
             android:orientation="vertical">
 
-            <TextView
+            <!-- <TextView
                 android:id="@+id/sfContact"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -49,8 +56,7 @@
                 android:background="#fff"
                 android:clickable="true"
                 android:elevation="4dp"
-                android:padding="20dp"
-                android:text="Contact: " />
+                android:padding="20dp" /> -->
 
             <TextView
                 android:id="@+id/sfEmail"
@@ -61,20 +67,7 @@
                 android:clickable="true"
                 android:elevation="4dp"
                 android:padding="20dp"
-                android:text="Email: " />
-
-            <TextView
-                android:id="@+id/sfAccount"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:layout_marginBottom="3dp"
-                android:layout_marginTop="3dp"
-                android:background="#fff"
-                android:clickable="true"
-                android:elevation="4dp"
-                android:padding="20dp"
-                android:text="Account: " />
+                android:text="@string/email" />
 
         </LinearLayout>
     </RelativeLayout>

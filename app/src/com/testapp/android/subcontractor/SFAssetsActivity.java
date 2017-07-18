@@ -1,15 +1,10 @@
 package com.testapp.android.subcontractor;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.salesforce.androidsdk.app.SalesforceSDKManager;
@@ -44,12 +39,13 @@ public class SFAssetsActivity extends SalesforceListActivity {
         toolbar.setTitle("Your Salesforce Assets");
         toolbar.showOverflowMenu();
         context = this;
-        listAdapter = new ArrayAdapter<String>(context, R.layout.listrow, new ArrayList<String>());
+        listAdapter = new ArrayAdapter<String>(context, R.layout.clientlistrow, new ArrayList<String>());
         setListAdapter(listAdapter);
     }
 
     @Override
     public void onResume(RestClient client) {
+        listAdapter.clear();
         this.client = client;
         String ownerId = client.getClientInfo().userId;
         try {
@@ -80,7 +76,7 @@ public class SFAssetsActivity extends SalesforceListActivity {
                                 String assetName = records.getJSONObject(i).getString("Name");
 
                                 if (assetStatus.equals("Installed")) {
-                                    assetName += "\n Installed";
+                                    assetName += "\nInstalled";
                                 }
                                 listAdapter.add(assetName);
                             }

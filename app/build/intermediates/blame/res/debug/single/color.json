@@ -1,102 +1,110 @@
 [
     {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b61c1a4d4143872eb94d1e7c7b09e3ee0a32439d\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6982e6f29146e9e8404164b5bfe5efcafd570244\\output\\res\\color\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\cbd29dc3cfb2ac1d3b14bb5f8564445701cfda01\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_tint_seek_thumb.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_search_url_text.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_tint_switch_thumb.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b61c1a4d4143872eb94d1e7c7b09e3ee0a32439d\\output\\res\\color\\wallet_primary_text_holo_light.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_tint_spinner.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6982e6f29146e9e8404164b5bfe5efcafd570244\\output\\res\\color\\common_google_signin_btn_tint.xml"
-    },
-    {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_tint_edittext.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\cbd29dc3cfb2ac1d3b14bb5f8564445701cfda01\\output\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_tint_btn_checkable.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_btn_colored_text_material.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f788aed747dfb0dc26694e90e7b71b5627109738\\output\\res\\color\\design_tint_password_toggle.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bcd7021a2fca71397016af880680cc2cc28567e8\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\switch_thumb_material_light.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_tint_switch_track.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f3e329ba48626174983dd2757966ac42a03bf7d\\output\\res\\color\\abc_tint_default.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\color\\abc_tint_default.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6982e6f29146e9e8404164b5bfe5efcafd570244\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\cbd29dc3cfb2ac1d3b14bb5f8564445701cfda01\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f788aed747dfb0dc26694e90e7b71b5627109738\\output\\res\\color\\design_error.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bcd7021a2fca71397016af880680cc2cc28567e8\\output\\res\\color\\design_error.xml"
     }
 ]

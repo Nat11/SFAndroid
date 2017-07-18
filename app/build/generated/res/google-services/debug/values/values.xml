@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">490725072877-nsflhu5dhuf2tp6cpct6v3v5vpgf8hh3.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sf-asset.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">490725072877</string>
+    <string name="google_api_key" translatable="false">AIzaSyCgntBEe38s303MVOOTgcso7RD_IO7Ucdc</string>
+    <string name="google_app_id" translatable="false">1:490725072877:android:640f6320bdb33b9f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCgntBEe38s303MVOOTgcso7RD_IO7Ucdc</string>
+    <string name="google_storage_bucket" translatable="false">sf-asset.appspot.com</string>
+    <string name="project_id" translatable="false">sf-asset</string>
+</resources>
