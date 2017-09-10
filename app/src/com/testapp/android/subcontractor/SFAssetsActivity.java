@@ -1,105 +1,150 @@
 package com.testapp.android.subcontractor;
 
+import android.app.DatePickerDialog;
+import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.widget.ArrayAdapter;
-import android.widget.Toast;
+import android.view.View;
+import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
-import com.salesforce.androidsdk.app.SalesforceSDKManager;
-import com.salesforce.androidsdk.rest.ApiVersionStrings;
-import com.salesforce.androidsdk.rest.RestClient;
-import com.salesforce.androidsdk.rest.RestRequest;
-import com.salesforce.androidsdk.rest.RestResponse;
-import com.salesforce.androidsdk.ui.SalesforceListActivity;
 import com.testapp.android.R;
+import com.testapp.android.utils.DevicePairingSimulator;
 
-import org.json.JSONArray;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
 
-import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.List;
+public class SFAssetsActivity extends AppCompatActivity {
 
-public class SFAssetsActivity extends SalesforceListActivity {
-
-    private RestClient client;
-    private ArrayAdapter<String> listAdapter;
-    private static List<String> assetIds = new ArrayList<>();
-    private static List<String> ownerIds = new ArrayList<>();
-    private String assetStatus;
-    Context context;
-
+    private TextView tvPairing;
+    private Button btnCreate;
+    private RelativeLayout pairingLayout;
+    private ProgressDialog progressDialog;
+    ProgressBar pb;
+    private String devicePairingName;
+    private String did;
+    private String tokenName;
+    private String serialNumber;
+    EditText etAssetName, etAssetLocation;
+    private EditText etEndDate;
+    Calendar myCalendar;
+    private long endDateInMillis;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sfassets);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Your Salesforce Assets");
-        toolbar.showOverflowMenu();
-        context = this;
-        listAdapter = new ArrayAdapter<String>(context, R.layout.clientlistrow, new ArrayList<String>());
-        setListAdapter(listAdapter);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        pairingLayout = (RelativeLayout) findViewById(R.id.pairing_layout);
+        btnCreate = (Button) findViewById(R.id.btn_createAsset);
+        tvPairing = (TextView) findViewById(R.id.tv_pairing);
+        pb = (ProgressBar) findViewById(R.id.pbHeader);
+        etAssetName = (EditText) findViewById(R.id.input_assetName);
+        etAssetLocation = (EditText) findViewById(R.id.input_assetLocation);
+        etEndDate = (EditText) findViewById(R.id.input_endUsage);
+
+        myCalendar = Calendar.getInstance();
+        final DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
+
+            @Override
+            public void onDateSet(DatePicker view, int year, int monthOfYear,
+                                  int dayOfMonth) {
+                myCalendar.set(Calendar.YEAR, year);
+                myCalendar.set(Calendar.MONTH, monthOfYear);
+                myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+                updateLabel();
+            }
+        };
+
+        etEndDate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new DatePickerDialog(SFAssetsActivity.this, date, myCalendar
+                        .get(Calendar.YEAR), myCalendar.get(Calendar.MONTH),
+                        myCalendar.get(Calendar.DAY_OF_MONTH)).show();
+            }
+        });
+        devicePairingName = DevicePairingSimulator.generateDevicePairingName();
     }
 
     @Override
-    public void onResume(RestClient client) {
-        listAdapter.clear();
-        this.client = client;
-        String ownerId = client.getClientInfo().userId;
-        try {
-            onFetchAssets("SELECT Id, Name, OwnerId, Status FROM Asset WHERE OwnerId = '" + ownerId + "'");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-    }
+    public void onResume() {
+        super.onResume();
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Getting Device Metadata...");
+        progressDialog.setCanceledOnTouchOutside(false);
+        pb.setVisibility(View.VISIBLE);
 
-    public void onFetchAssets(String soql) throws UnsupportedEncodingException {
-        RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
-        client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
+        //Simulate delay to display pairing request
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
             @Override
-            public void onSuccess(RestRequest request, final RestResponse result) {
-                result.consumeQuietly(); // consume before going back to main thread
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        try {
-
-                            Log.d("Asset", result.toString());
-                            //listAdapter.clear();
-                            JSONArray records = result.asJSONObject().getJSONArray("records");
-                            for (int i = 0; i < records.length(); i++) {
-                                assetIds.add(records.getJSONObject(i).getString("Id"));
-                                ownerIds.add(records.getJSONObject(i).getString("OwnerId"));
-                                assetStatus = records.getJSONObject(i).getString("Status");
-                                String assetName = records.getJSONObject(i).getString("Name");
-
-                                if (assetStatus.equals("Installed")) {
-                                    assetName += "\nInstalled";
-                                }
-                                listAdapter.add(assetName);
-                            }
-                        } catch (Exception e) {
-                            onError(e);
-                        }
-                    }
-                });
+            public void run() {
+                tvPairing.setText(R.string.device_detected);
+                pb.setVisibility(View.INVISIBLE);
+                DevicePairingSimulator.createPairDialog(SFAssetsActivity.this, devicePairingName, progressDialog, pairingLayout);
             }
+        }, 2500);
 
+        //Generate asset metadata then create actor token
+        btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onError(final Exception exception) {
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        Toast.makeText(SFAssetsActivity.this,
-                                SFAssetsActivity.this.getString(SalesforceSDKManager.getInstance().getSalesforceR().stringGenericError(), exception.toString()),
-                                Toast.LENGTH_LONG).show();
-                    }
-                });
+            public void onClick(View view) {
+
+                did = DevicePairingSimulator.generateAssetValues()[0];
+                tokenName = DevicePairingSimulator.generateAssetValues()[1];
+                serialNumber = DevicePairingSimulator.generateAssetValues()[2];
+
+                if (validateFields(new EditText[]{etAssetName, etAssetLocation})) {
+
+                    Intent i = new Intent(SFAssetsActivity.this, ClientSelectActivity.class);
+                    i.putExtra("did", did);
+                    i.putExtra("tokenName", tokenName);
+                    i.putExtra("sn", serialNumber);
+                    i.putExtra("assetName", etAssetName.getText().toString());
+                    i.putExtra("assetLocation", etAssetLocation.getText().toString());
+                    i.putExtra("endUsageDate", endDateInMillis);
+                    startActivity(i);
+                }
             }
         });
     }
 
+    private boolean validateFields(EditText[] fields) {
+        for (EditText currentField : fields) {
+            if (currentField.getText().toString().trim().length() <= 0) {
+                currentField.setError("Required field");
+                return false;
+            }
+        }
+        return true;
+    }
 
+    private void updateLabel() {
+        String myFormat = "dd/MM/yyyy";
+        SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.US);
+        endDateInMillis = myCalendar.getTime().getTime();
+        etEndDate.setText(sdf.format(myCalendar.getTime()));
+    }
+
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(SFAssetsActivity.this, SubcontractorNavActivity.class));
+        finish();
+        moveTaskToBack(true);
+    }
 }

@@ -8,6 +8,10 @@
         "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\xml\\servers.xml"
     },
     {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\xml\\provider_paths.xml"
+    },
+    {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\xml\\authenticator.xml",
         "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\xml\\authenticator.xml"
     }

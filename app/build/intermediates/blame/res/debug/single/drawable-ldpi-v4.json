@@ -2,5 +2,9 @@
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\sf__icon.png",
         "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\drawable-ldpi-v4\\sf__icon.png"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\toast_frame.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\22aa2aa4aef77e5eb2aab74117387c26af49a4cb\\output\\res\\drawable-ldpi-v4\\toast_frame.9.png"
     }
 ]

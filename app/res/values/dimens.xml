@@ -10,4 +10,10 @@
          https://developer.android.com/design/patterns/navigation-drawer.html -->
     <dimen name="navigation_drawer_width">240dp</dimen>
     <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="stroke_width">10dp</dimen>
+    <dimen name="debug_bounds_stroke_width">1dp</dimen>
+    <dimen name="debug_control_point_radius">3dp</dimen>
+    <dimen name="debug_end_point_radius">6dp</dimen>
+
 </resources>

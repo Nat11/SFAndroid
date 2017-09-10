@@ -55,21 +55,6 @@
                 android:entries="@array/services_array"
                 android:prompt="@string/services_prompt" />
 
-            <!--  Asset Type Label -->
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="8dp">
-
-                <EditText
-                    android:id="@+id/input_assetType"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/asset_type"
-                    android:inputType="textCapWords" />
-            </android.support.design.widget.TextInputLayout>
-
             <!-- Site Location Label -->
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"

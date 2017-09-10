@@ -6,27 +6,27 @@
             android:id="@+id/monitor"
             android:checkable="false"
             android:icon="@drawable/ic_monitor"
-            android:title="Monitor" />
-        <!-- <item
+            android:title="@string/monitor" />
+         <item
             android:id="@+id/register"
             android:checkable="false"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Register Asset" /> -->
-        <item
+            android:title="Register Asset" />
+        <!--<item
             android:id="@+id/assets"
             android:checkable="false"
             android:icon="@drawable/ic_asset"
-            android:title="Assets" />
+            android:title="@string/assets" /> -->
         <item
             android:id="@+id/requests"
             android:checkable="false"
             android:icon="@drawable/ic_requests"
-            android:title="Requests" />
+            android:title="@string/requests" />
         <item
             android:id="@+id/logout"
             android:checkable="false"
             android:icon="@drawable/ic_signout_circle"
-            android:title="Logout" />
+            android:title="@string/logout" />
     </group>
 
 

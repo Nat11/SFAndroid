@@ -6,22 +6,22 @@
             android:id="@+id/purchase"
             android:checkable="false"
             android:icon="@drawable/ic_add_shopping_cart_black_36dp"
-            android:title="Services" />
+            android:title="@string/purchase" />
+        <item
+            android:id="@+id/orders"
+            android:checkable="false"
+            android:icon="@drawable/ic_done_all_black_36dp"
+            android:title="@string/orders" />
         <item
             android:id="@+id/monitor"
             android:checkable="false"
             android:icon="@drawable/ic_monitor"
-            android:title="Monitor" />
-        <item
-            android:id="@+id/services"
-            android:checkable="false"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Services" />
+            android:title="@string/monitor" />
         <item
             android:id="@+id/logout"
             android:checkable="false"
             android:icon="@drawable/ic_signout_circle"
-            android:title="Logout" />
+            android:title="@string/logout" />
     </group>
 
 

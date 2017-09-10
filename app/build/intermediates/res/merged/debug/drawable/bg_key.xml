@@ -3,4 +3,5 @@
     <item android:drawable="@color/colorRow" android:state_selected="true" />
     <item android:drawable="@color/colorRow" android:state_focused="true" />
 
+
 </selector>

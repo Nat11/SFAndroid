@@ -1,7 +1,7 @@
-#Tue Jul 18 10:06:43 CEST 2017
-base.0=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9c5b3f9f22e422a967358c4a9266afed59eec69e
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2ceb2ce1bb92598350f7ebcbc478c700b2bfb148\\classes.dex
-base.1=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2ceb2ce1bb92598350f7ebcbc478c700b2bfb148
-file.0=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9c5b3f9f22e422a967358c4a9266afed59eec69e\\classes.dex
+#Fri Sep 08 17:08:16 CEST 2017
+base.0=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2ceb2ce1bb92598350f7ebcbc478c700b2bfb148
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9c5b3f9f22e422a967358c4a9266afed59eec69e\\classes.dex
+base.1=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9c5b3f9f22e422a967358c4a9266afed59eec69e
+file.0=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2ceb2ce1bb92598350f7ebcbc478c700b2bfb148\\classes.dex

@@ -23,6 +23,9 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
@@ -34,6 +37,10 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
     <meta-data
         android:name="android.support.VERSION"
         android:value="25.3.1" />
@@ -44,16 +51,22 @@
 
     <uses-permission android:name="com.testapp.android.permission.C2D_MESSAGE" />
 
-    <uses-feature
-        android:glEsVersion="0x00020000"
-        android:required="true" />
-
     <application
         android:name="com.testapp.android.SFMain.MainApplication"
         android:icon="@drawable/sf__icon"
         android:label="@string/app_name"
         android:manageSpaceActivity="com.salesforce.androidsdk.ui.ManageSpaceActivity"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.testapp.android.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
 
         <!-- Launcher screen -->
         <activity
@@ -74,7 +87,7 @@
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_subcontractor_nav" />
         <activity
-            android:name="com.testapp.android.subcontractor.AssetActivity"
+            android:name="com.testapp.android.subcontractor.AssetPairingActivity"
             android:configChanges="orientation|screenSize"
             android:label="Asset Registration"
             android:parentActivityName="com.testapp.android.subcontractor.SubcontractorNavActivity"
@@ -88,7 +101,8 @@
         <activity
             android:name="com.testapp.android.subcontractor.TokenActivity"
             android:configChanges="orientation|screenSize"
-            android:label="Asset Token" />
+            android:label="Asset Token"
+            android:parentActivityName="com.testapp.android.subcontractor.SubcontractorNavActivity" />
         <activity
             android:name="com.testapp.android.subcontractor.ClientSelectActivity"
             android:configChanges="orientation|screenSize"
@@ -97,7 +111,9 @@
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.testapp.android.subcontractor.SFAssetsActivity"
-            android:configChanges="orientation|screenSize" />
+            android:configChanges="orientation|screenSize"
+            android:label="Register Asset"
+            android:parentActivityName="com.testapp.android.subcontractor.SubcontractorNavActivity" />
         <activity
             android:name="com.testapp.android.subcontractor.RequestDetailsActivity"
             android:configChanges="orientation|screenSize"
@@ -107,12 +123,70 @@
             android:name="com.testapp.android.subcontractor.RequestsActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_requests"
-            android:parentActivityName="com.testapp.android.client.ClientNavActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".subcontractor.SubcontractorNavActivity" />
+            android:parentActivityName="com.testapp.android.subcontractor.SubcontractorNavActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.testapp.android.client.PurchaseActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Products"
+            android:parentActivityName="com.testapp.android.client.ClientNavActivity" />
+        <activity
+            android:name="com.testapp.android.client.ShoppingCartActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Your Shopping Cart"
+            android:parentActivityName="com.testapp.android.client.PurchaseActivity" />
+        <activity
+            android:name="com.testapp.android.client.OrderConfirmedActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Order confirmed" />
+        <activity
+            android:name="com.testapp.android.client.OrdersActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Your Orders"
+            android:parentActivityName="com.testapp.android.client.ClientNavActivity" />
+        <activity
+            android:name="com.testapp.android.subcontractor.AssetInstallationActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Asset Installation"
+            android:parentActivityName="com.testapp.android.subcontractor.RequestsActivity" />
+        <activity
+            android:name="com.testapp.android.subcontractor.InstallAssetActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Install on device" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name="com.testapp.android.subcontractor.MonitorActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Monitor Installed Assets"
+            android:parentActivityName="com.testapp.android.subcontractor.SubcontractorNavActivity" />
+        <activity android:name="com.testapp.android.client.InstalledAssetsActivity" />
+        <activity android:name="com.testapp.android.subcontractor.BluetoothPairActivity" />
+        <activity
+            android:name="com.testapp.android.subcontractor.Bluetooth.BTMainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Bluetooth Pairing"
+            android:parentActivityName="com.testapp.android.subcontractor.SubcontractorNavActivity" />
+        <activity
+            android:name="com.testapp.android.subcontractor.Bluetooth.DeviceListActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Devices"
+            android:parentActivityName="com.testapp.android.subcontractor.Bluetooth.BTMainActivity" />
+        <activity
+            android:name="com.testapp.android.subcontractor.DeviceMetadataActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Paired Device Extra Data" />
+        <activity
+            android:name="com.testapp.android.subcontractor.CaseAssetActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Asset Case"
+            android:parentActivityName="com.testapp.android.subcontractor.SubcontractorNavActivity" />
         <!-- SmartStore Inspector screen -->
         <activity android:name="com.salesforce.androidsdk.smartstore.ui.SmartStoreInspectorActivity" /> <!-- Metadata for supported app restrictions -->
         <meta-data
@@ -252,6 +326,10 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -312,11 +390,6 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:authorities="com.testapp.android.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
             android:name="com.google.android.gms.version"

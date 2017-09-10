@@ -3,15 +3,17 @@ package com.testapp.android.client;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -28,7 +30,6 @@ import com.salesforce.androidsdk.rest.RestRequest;
 import com.salesforce.androidsdk.rest.RestResponse;
 import com.salesforce.androidsdk.ui.SalesforceActivity;
 import com.testapp.android.R;
-import com.testapp.android.subcontractor.SubcontractorNavActivity;
 
 import org.json.JSONArray;
 
@@ -42,11 +43,11 @@ public class ClientNavActivity extends SalesforceActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private RestClient client;
-    private TextView tvUser, tvContact, tvEmail;
-    private ProgressDialog progressDialog;
-    private static String un, cn, an, email, clientId, profileImageUrl, accessToken = "";
+    private TextView tvUser, tvCompany, tvUsername;
+    private static String un, cn, an, username, accountId, clientId, profileImageUrl, accessToken = "";
     private static String instanceUrl = "https://arisiot-developer-edition.eu11.force.com/demo";
     CircleImageView profileImageView;
+    private RelativeLayout mainRelativLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,30 +71,21 @@ public class ClientNavActivity extends SalesforceActivity
         accessToken = client.getAuthToken();
         clientId = client.getClientInfo().userId;
 
-        progressDialog = new ProgressDialog(this);
-        progressDialog.setMessage("Loading...");
-        progressDialog.setCanceledOnTouchOutside(false);
+        mainRelativLayout = (RelativeLayout) findViewById(R.id.mainRelativeLayout);
         profileImageView = (CircleImageView) findViewById(R.id.profile_image);
-
         tvUser = (TextView) findViewById(R.id.sfUser);
-        //tvContact = (TextView) findViewById(R.id.sfContact);
-        tvEmail = (TextView) findViewById(R.id.sfEmail);
-
-        try {
-            loadUserData();
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
+        tvCompany = (TextView) findViewById(R.id.sfCompany);
+        tvUsername = (TextView) findViewById(R.id.sfUsername);
+        new UserProfile().execute();
     }
 
     public void loadUserData() throws UnsupportedEncodingException {
-        progressDialog.show();
         String userId = client.getClientInfo().userId;
-        sendRequest("SELECT Name, ContactId FROM User WHERE Id='" + userId + "'", "ContactId", "user");
+        sendRequest("SELECT Name, Username, ContactId FROM User WHERE Id='" + userId + "'", "ContactId", "user");
     }
 
     public void onFetchContactUser(String contactId) throws UnsupportedEncodingException {
-        sendRequest("SELECT Name, AccountId, Email FROM Contact WHERE Id='" + contactId + "'", "AccountId", "contact");
+        sendRequest("SELECT Name, AccountId FROM Contact WHERE Id='" + contactId + "'", "AccountId", "contact");
         // request contact profile picture
         String picture = "Contact Picture";
         sendRequest("SELECT Body, Name FROM Attachment WHERE ParentId='" + contactId + "'" + "and Name='" + picture + "'", "Body", "contactImage");
@@ -101,7 +93,6 @@ public class ClientNavActivity extends SalesforceActivity
 
     public void onFetchAccountUser(String accountId) throws UnsupportedEncodingException {
         sendRequest("SELECT Id, Name FROM Account WHERE Id='" + accountId + "'", "Id", "account");
-        progressDialog.dismiss();
     }
 
     private void sendRequest(String soql, final String sfId, final String action) throws UnsupportedEncodingException {
@@ -125,6 +116,9 @@ public class ClientNavActivity extends SalesforceActivity
                                 case "user":
                                     onFetchContactUser(id);
                                     tvUser.setText(name);
+                                    username = records.getJSONObject(0).getString("Username");
+                                    tvCompany.setText("Company: " + "Efficient Energy");
+                                    tvUsername.setText("Username: " + username);
                                     un = name;
                                     break;
 
@@ -132,8 +126,7 @@ public class ClientNavActivity extends SalesforceActivity
                                     onFetchAccountUser(id);
                                     //tvContact.setText(name);
                                     cn = name;
-                                    email = records.getJSONObject(0).getString("Email");
-                                    tvEmail.setText("Email: " + email);
+
                                     break;
 
                                 case "contactImage":
@@ -143,6 +136,7 @@ public class ClientNavActivity extends SalesforceActivity
 
                                 case "account":
                                     an = name;
+                                    accountId = id;
                             }
 
                         } catch (Exception e) {
@@ -224,15 +218,15 @@ public class ClientNavActivity extends SalesforceActivity
         if (id == R.id.monitor) {
 
         } else if (id == R.id.purchase) {
-            startActivity(new Intent(ClientNavActivity.this, PurchaseActivity.class));
+            Intent i = new Intent(ClientNavActivity.this, PurchaseActivity.class);
+            i.putExtra("accessToken", accessToken);
+            i.putExtra("accountId", accountId);
+            startActivity(i);
 
-        } else if (id == R.id.services) {
-            Intent i = new Intent(ClientNavActivity.this, ServicesActivity.class);
-            i.putExtra("clientEmail", email);
-            i.putExtra("fullName", un);
-            i.putExtra("ContactName", cn);
-            i.putExtra("AccountName", an);
-            i.putExtra("clientId", clientId);
+        } else if (id == R.id.orders) {
+            Intent i = new Intent(ClientNavActivity.this, OrdersActivity.class);
+            i.putExtra("accessToken", accessToken);
+            i.putExtra("accountId", accountId);
             startActivity(i);
 
         } else if (id == R.id.logout) {
@@ -246,17 +240,33 @@ public class ClientNavActivity extends SalesforceActivity
         return true;
     }
 
-    @Override
-    public void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        //outState.putString("contact", tvContact.getText().toString());
-        outState.putString("email", tvEmail.getText().toString());
-    }
+    private class UserProfile extends AsyncTask<String, Integer, Void> {
+        private ProgressDialog progressDialog;
 
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        //tvContact.setText(savedInstanceState.getString("contact"));
-        tvEmail.setText(savedInstanceState.getString("email"));
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            progressDialog = new ProgressDialog(ClientNavActivity.this);
+            progressDialog.setMessage("Loading Profile");
+            progressDialog.setCancelable(false);
+            progressDialog.show();
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+            progressDialog.dismiss();
+            mainRelativLayout.setVisibility(View.VISIBLE);
+        }
+
+        @Override
+        protected Void doInBackground(String... params) {
+            try {
+                loadUserData();
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
     }
 }

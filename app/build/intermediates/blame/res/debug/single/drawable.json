@@ -12,36 +12,36 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a0e56af4648da12feddffa5b25ee148e6cc310cf\\output\\res\\drawable\\cast_ic_mini_controller_pause.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bcd7021a2fca71397016af880680cc2cc28567e8\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
-    },
-    {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\cbd29dc3cfb2ac1d3b14bb5f8564445701cfda01\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_prev.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a0e56af4648da12feddffa5b25ee148e6cc310cf\\output\\res\\drawable\\cast_ic_mini_controller_skip_prev.xml"
-    },
-    {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bcd7021a2fca71397016af880680cc2cc28567e8\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_prev.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a0e56af4648da12feddffa5b25ee148e6cc310cf\\output\\res\\drawable\\cast_ic_mini_controller_skip_prev.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_pause.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a0e56af4648da12feddffa5b25ee148e6cc310cf\\output\\res\\drawable\\cast_ic_expanded_controller_pause.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a0e56af4648da12feddffa5b25ee148e6cc310cf\\output\\res\\drawable\\cast_ic_expanded_controller_rewind30.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_vol_type_audiotrack_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4dcf40c8e9daedd8e0eb211f3ee4b0782c72439c\\output\\res\\drawable\\mr_vol_type_audiotrack_light.xml"
-    },
-    {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_vol_type_audiotrack_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4dcf40c8e9daedd8e0eb211f3ee4b0782c72439c\\output\\res\\drawable\\mr_vol_type_audiotrack_light.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
@@ -66,6 +66,10 @@
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a0e56af4648da12feddffa5b25ee148e6cc310cf\\output\\res\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_add_shopping_cart_white_36dp.png",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\drawable\\ic_add_shopping_cart_white_36dp.png"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
@@ -98,6 +102,10 @@
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a0e56af4648da12feddffa5b25ee148e6cc310cf\\output\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_done_all_black_36dp.png",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\drawable\\ic_done_all_black_36dp.png"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_play.xml",
@@ -148,10 +156,6 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hugh.png",
-        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\drawable\\hugh.png"
-    },
-    {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\cbd29dc3cfb2ac1d3b14bb5f8564445701cfda01\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
@@ -182,6 +186,10 @@
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_mute.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a0e56af4648da12feddffa5b25ee148e6cc310cf\\output\\res\\drawable\\cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check.png",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\drawable\\check.png"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_group_expand.xml",
@@ -296,6 +304,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\d0f374ab0158adffc35b1f318258a6ae4a81ecee\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
     },
     {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\oval_button.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\drawable\\oval_button.xml"
+    },
+    {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
@@ -318,6 +330,10 @@
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_thumb.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a0e56af4648da12feddffa5b25ee148e6cc310cf\\output\\res\\drawable\\cast_expanded_controller_seekbar_thumb.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_square.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\drawable\\rounded_square.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
@@ -366,6 +382,10 @@
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_key.xml",
         "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\drawable\\bg_key.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_chevron_right_black_18dp.png",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\drawable\\ic_chevron_right_black_18dp.png"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_close_dark.xml",
@@ -420,12 +440,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a0e56af4648da12feddffa5b25ee148e6cc310cf\\output\\res\\drawable\\cast_ic_notification_skip_next.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_button_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4dcf40c8e9daedd8e0eb211f3ee4b0782c72439c\\output\\res\\drawable\\mr_button_dark.xml"
-    },
-    {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_add_shopping_cart_black_36dp.png",
         "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\drawable\\ic_add_shopping_cart_black_36dp.png"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_button_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4dcf40c8e9daedd8e0eb211f3ee4b0782c72439c\\output\\res\\drawable\\mr_button_dark.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind30.xml",

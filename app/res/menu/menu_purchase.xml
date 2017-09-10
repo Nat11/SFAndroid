@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".client.PurchaseActivity">
+    <item
+        android:id="@+id/purchase"
+        android:actionLayout="@layout/action_bar_shopping_icon"
+        android:icon="@drawable/ic_add_shopping_cart_white_36dp"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:title="@string/shopping_cart"
+        app:showAsAction="always" />
+</menu>

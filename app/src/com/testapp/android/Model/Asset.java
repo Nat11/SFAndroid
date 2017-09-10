@@ -1,45 +1,59 @@
 package com.testapp.android.Model;
 
-public class Asset {
+import java.io.Serializable;
 
-    private String assetTokenName, deviceId, assetSN, assetName;
+public class Asset implements Serializable {
 
-    public Asset(String assetToken, String deviceId, String assetSN, String assetName) {
-        this.assetTokenName = assetToken;
-        this.deviceId = deviceId;
-        this.assetSN = assetSN;
-        this.assetName = assetName;
+    private String id, ownerId, name, location, status;
+
+    public Asset() {
     }
 
-    public String getAssetTokenName() {
-        return assetTokenName;
+    public Asset(String id, String name, String ownerId, String location, String status) {
+        this.id = id;
+        this.name = name;
+        this.ownerId = ownerId;
+        this.location = location;
+        this.status = status;
     }
 
-    public void setAssetTokenName(String assetTokenName) {
-        this.assetTokenName = assetTokenName;
+    public String getId() {
+        return id;
     }
 
-    public String getDeviceId() {
-        return deviceId;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public void setDeviceId(String deviceId) {
-        this.deviceId = deviceId;
+    public String getOwnerId() {
+        return ownerId;
     }
 
-    public String getAssetSN() {
-        return assetSN;
+    public void setOwnerId(String ownerId) {
+        this.ownerId = ownerId;
     }
 
-    public void setAssetSN(String assetSN) {
-        this.assetSN = assetSN;
+    public String getName() {
+        return name;
     }
 
-    public String getAssetName() {
-        return assetName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setAssetName(String assetName) {
-        this.assetName = assetName;
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

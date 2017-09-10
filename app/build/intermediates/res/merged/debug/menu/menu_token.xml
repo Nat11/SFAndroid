@@ -2,9 +2,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.testapp.android.subcontractor.TokenActivity">
+
     <item
-        android:id="@+id/home"
+        android:id="@+id/install"
         android:orderInCategory="100"
-        android:title="@string/home"
+        android:title="Installation"
         app:showAsAction="never" />
+
 </menu>

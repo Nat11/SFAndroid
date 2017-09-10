@@ -9,7 +9,9 @@
     tools:showIn="@layout/app_bar_client_nav">
 
     <RelativeLayout
+        android:id="@+id/mainRelativeLayout"
         android:layout_width="match_parent"
+        android:visibility="invisible"
         android:layout_height="wrap_content">
 
         <RelativeLayout
@@ -48,18 +50,8 @@
             android:layout_marginTop="5dp"
             android:orientation="vertical">
 
-            <!-- <TextView
-                android:id="@+id/sfContact"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="#fff"
-                android:clickable="true"
-                android:elevation="4dp"
-                android:padding="20dp" /> -->
-
             <TextView
-                android:id="@+id/sfEmail"
+                android:id="@+id/sfUsername"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -67,7 +59,18 @@
                 android:clickable="true"
                 android:elevation="4dp"
                 android:padding="20dp"
-                android:text="@string/email" />
+                android:text="@string/username" />
+
+            <TextView
+                android:id="@+id/sfCompany"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="@string/company"/>
 
         </LinearLayout>
     </RelativeLayout>

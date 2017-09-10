@@ -23,13 +23,26 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application
         android:name=".SFMain.MainApplication"
         android:icon="@drawable/sf__icon"
         android:label="@string/app_name"
         android:manageSpaceActivity="com.salesforce.androidsdk.ui.ManageSpaceActivity"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
 
         <!-- Launcher screen -->
         <activity
@@ -50,7 +63,7 @@
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_subcontractor_nav" />
         <activity
-            android:name=".subcontractor.AssetActivity"
+            android:name=".subcontractor.AssetPairingActivity"
             android:configChanges="orientation|screenSize"
             android:label="Asset Registration"
             android:parentActivityName=".subcontractor.SubcontractorNavActivity"
@@ -75,6 +88,7 @@
         <activity
             android:name=".subcontractor.SFAssetsActivity"
             android:configChanges="orientation|screenSize"
+            android:label="Register Asset"
             android:parentActivityName=".subcontractor.SubcontractorNavActivity" />
         <activity
             android:name=".subcontractor.RequestDetailsActivity"
@@ -87,7 +101,68 @@
             android:label="@string/title_activity_requests"
             android:parentActivityName=".subcontractor.SubcontractorNavActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".client.PurchaseActivity"></activity>
+        <activity
+            android:name=".client.PurchaseActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Products"
+            android:parentActivityName=".client.ClientNavActivity" />
+        <activity
+            android:name=".client.ShoppingCartActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Your Shopping Cart"
+            android:parentActivityName=".client.PurchaseActivity" />
+        <activity
+            android:name=".client.OrderConfirmedActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Order confirmed" />
+        <activity
+            android:name=".client.OrdersActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Your Orders"
+            android:parentActivityName=".client.ClientNavActivity" />
+        <activity
+            android:name=".subcontractor.AssetInstallationActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Asset Installation"
+            android:parentActivityName=".subcontractor.RequestsActivity" />
+        <activity
+            android:name=".subcontractor.InstallAssetActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Install on device">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".subcontractor.MonitorActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Monitor Installed Assets"
+            android:parentActivityName=".subcontractor.SubcontractorNavActivity" />
+        <activity android:name=".client.InstalledAssetsActivity" />
+        <activity android:name=".subcontractor.BluetoothPairActivity" />
+        <activity
+            android:name=".subcontractor.Bluetooth.BTMainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Bluetooth Pairing"
+            android:parentActivityName=".subcontractor.SubcontractorNavActivity" />
+        <activity
+            android:name=".subcontractor.Bluetooth.DeviceListActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Devices"
+            android:parentActivityName=".subcontractor.Bluetooth.BTMainActivity" />
+        <activity
+            android:name=".subcontractor.DeviceMetadataActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Paired Device Extra Data" />
+        <activity
+            android:name=".subcontractor.CaseAssetActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Asset Case"
+            android:parentActivityName=".subcontractor.SubcontractorNavActivity"/>
     </application>
 
 </manifest>

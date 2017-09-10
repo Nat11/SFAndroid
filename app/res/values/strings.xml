@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="account_type">com.testapp.android.login</string>
-    <string name="app_name"><b>TestApp</b></string>
+    <string name="app_name"><b>Asset Services</b></string>
     <string name="app_package">com.testapp.android</string>
-    <string name="welcome">Welcome %s</string>
+    <string name="welcome">Welcome</string>
     <string name="logout_button">Logout</string>
     <string name="fetch_contacts_button">Fetch Contacts</string>
     <string name="fetch_accounts_button">Fetch Accounts</string>
@@ -28,10 +28,9 @@
     <string name="services_prompt">Services Company</string>
 
     <string-array name="services_array">
-        <item>Subcontractor</item>
+        <item>Energy Services</item>
         <item>Company 2</item>
         <item>Company 3</item>
-        <item>Company 4</item>
     </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -39,14 +38,13 @@
     <string name="title_activity_subcontractor_nav">SubcontractorNavActivity</string>
     <string name="start_pairing">Make sure pairing mode is activated on your device</string>
     <string name="title_activity_test">testActivity</string>
-    <string name="asset_type">Asset Type</string>
-    <string name="location_of_installation">Location of Installation</string>
+    <string name="location_of_installation">Asset Location</string>
     <string name="validate">Validate</string>
     <string name="note_contact">Note: You can select a Contact later</string>
     <string name="next">Next</string>
     <string name="asset_name">Asset Name</string>
     <string name="give_asset_name">Give your asset a name to complete registration</string>
-    <string name="email">Email:</string>
+    <string name="username">Username:</string>
     <string name="full_name">Full Name:</string>
     <string name="account">Account:</string>
     <string name="installation_location">Installation Location:</string>
@@ -57,5 +55,51 @@
     <string name="device_installation_info">Make sure your device is ready for installation before clicking the button below</string>
     <string name="home">Home</string>
     <string name="schneider_electric">Schneider Electric</string>
+    <string name="purchase">Purchase</string>
+    <string name="monitor">Monitor</string>
+    <string name="services">Services</string>
+    <string name="logout">Logout</string>
+    <string name="requests">Requests</string>
+    <string name="assets">Assets</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="euro">€</string>
+    <string name="orders">Orders</string>
+    <string name="order_confirmed">Your order has been confirmed, and your items will be ready for shipping. \n\nGo to your Homepage and consult Orders to check if your order has been delivered.</string>
+    <string name="homepage">Homepage</string>
+    <string name="click_order_install_request">By clicking a <b>Delivered</b> order, you will be redirected to the installation request page</string>
+    <string name="owner_name">Owner Name:</string>
+    <string name="asset_name_">Asset name:</string>
+    <string name="asset_metadata_proceed">Asset Metadata collected successfully.\nClick Next to proceed installation.</string>
+    <string name="asset_metadata_collected">Asset Metadata collected successfully.\nFill in the fields then click Next to proceed.</string>
 
+    <string name="chevron_right">chevron_right</string>
+    <string name="device_detected">Device Detected !</string>
+    <string name="send_asset_token">Send Asset Token</string>
+    <string name="click_to_send_the_asset_token">Click on the button below to send the Asset token to your connected device</string>
+    <string name="company">Company:</string>
+    <string name="asset_end_usage">Asset End Usage</string>
+
+
+    <string name="Text">Status: -</string>
+    <string name="on">Turn On</string>
+    <string name="off">Turn Off</string>
+    <string name="List">List paired Devices</string>
+    <string name="Find">Search new Devices / Cancel</string>
+    <string name="text_bluetooth_off">Bluetooth is Off</string>
+    <string name="text_bluetooth_on">Bluetooth is On</string>
+
+    <string name="text_enable">Enable</string>
+    <string name="text_disable">Disable</string>
+
+    <string name="text_view_paired">Paired Devices</string>
+    <string name="text_scan_devices">Scan Devices</string>
+    <string name="text_stop_scan">Scan Devices</string>
+
+    <string name="text_list_paired_devices">Paired Devices</string>
+    <string name="text_list_devices">List of Devices</string>
+
+    <string name="text_pair">Pair</string>
+    <string name="asset">Asset:</string>
+    <string name="case_reason">Case reason:</string>
+    <string name="case_number">Case Number:</string>
 </resources>

@@ -13,13 +13,26 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <android.support.design.widget.NavigationView
+    <!-- <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_client_nav"
+        app:menu="@menu/activity_client_nav_drawer" /> -->
+
+    <com.rom4ek.arcnavigationview.ArcNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        android:fitsSystemWindows="true"
+        app:arc_cropDirection="cropOutside"
+        app:arc_width="96dp"
+        app:headerLayout="@layout/nav_header_client_nav"
+        app:itemBackground="@android:color/white"
         app:menu="@menu/activity_client_nav_drawer" />
 
 </android.support.v4.widget.DrawerLayout>

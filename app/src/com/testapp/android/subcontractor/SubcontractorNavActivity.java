@@ -3,35 +3,26 @@ package com.testapp.android.subcontractor;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.util.Log;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
-import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.Volley;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 import com.salesforce.androidsdk.app.SalesforceSDKManager;
 import com.salesforce.androidsdk.rest.ApiVersionStrings;
 import com.salesforce.androidsdk.rest.RestClient;
@@ -39,33 +30,35 @@ import com.salesforce.androidsdk.rest.RestRequest;
 import com.salesforce.androidsdk.rest.RestResponse;
 import com.salesforce.androidsdk.ui.SalesforceActivity;
 import com.testapp.android.Model.Asset;
-import com.testapp.android.Model.ClientRequest;
 import com.testapp.android.R;
 import com.testapp.android.client.ClientNavActivity;
+import com.testapp.android.subcontractor.Bluetooth.BTMainActivity;
 
 import org.json.JSONArray;
 
+import java.io.Serializable;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-
-import static android.R.attr.action;
-import static android.R.attr.data;
-import static android.R.attr.theme;
 
 public class SubcontractorNavActivity extends SalesforceActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private RestClient client;
-    private TextView tvUser, tvAccount, tvNewRequests;
+    private TextView tvUser, tvUsername, tvAccount, tvNewRequests;
     private ProgressDialog progressDialog;
     private static String un, cn, an, profileImageUrl, accessToken = "";
     private static String instanceUrl = "https://arisiot-developer-edition.eu11.force.com/demo";
     CircleImageView profileImageView;
-    private DatabaseReference mDatabase;
     private int nbRequests = 0;
+    private List<Asset> assetsPending = new ArrayList<>();
+    private List<Asset> assetsDone = new ArrayList<>();
+    private RelativeLayout mainRelativLayout;
+    private String contactId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,7 +68,6 @@ public class SubcontractorNavActivity extends SalesforceActivity
         progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Loading...");
         progressDialog.setCanceledOnTouchOutside(false);
-        mDatabase = FirebaseDatabase.getInstance().getReference();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -84,43 +76,84 @@ public class SubcontractorNavActivity extends SalesforceActivity
         toggle.syncState();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        mainRelativLayout = (RelativeLayout) findViewById(R.id.mainRelativeLayout);
         tvUser = (TextView) findViewById(R.id.sfUser);
         tvAccount = (TextView) findViewById(R.id.sfAccount);
+        tvUsername = (TextView) findViewById(R.id.sfUsername);
         profileImageView = (CircleImageView) findViewById(R.id.profile_image);
         tvNewRequests = (TextView) findViewById(R.id.newRequests);
-
-        getClientRequests(mDatabase);
     }
 
     @Override
     public void onResume(RestClient client) {
         this.client = client;
         accessToken = client.getAuthToken();
+        assetsDone.clear();
+        assetsPending.clear();
         Log.d("accessToken", accessToken);
-        getClientRequests(mDatabase);
-
-        try {
-            loadUserData();
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
+        new UserProfile().execute();
     }
 
-    //Get number of new client requests then update UI
-    private void getClientRequests(DatabaseReference db) {
+    //Get number of new client requests then update UI, and get Asset data
+    private void getClientRequests(String soql, final String action) throws UnsupportedEncodingException {
         nbRequests = 0;
-        db.child("ClientRequests").child("subcontractor").orderByChild("done").equalTo("false").addValueEventListener(new ValueEventListener() {
+        final RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
+
+        client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                if (dataSnapshot.hasChildren()) {
-                    nbRequests = (int) dataSnapshot.getChildrenCount();
-                }
-                updateNewRequestUI(nbRequests);
+            public void onSuccess(RestRequest request, final RestResponse result) {
+                result.consumeQuietly(); // consume before going back to main thread
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            Log.d("AssetResult", result.toString());
+                            JSONArray records = result.asJSONObject().getJSONArray("records");
+                            switch (action) {
+                                case "count":
+                                    nbRequests = records.getJSONObject(0).getInt("expr0");
+                                    updateNewRequestUI(nbRequests);
+                                    break;
+                                case "assetPending":
+                                    for (int i = 0; i < records.length(); i++) {
+                                        String name = records.getJSONObject(i).getString("Name");
+                                        String id = records.getJSONObject(i).getString("Id");
+                                        String ownerId = records.getJSONObject(i).getString("OwnerId");
+                                        String location = records.getJSONObject(i).getString("location__c");
+                                        String status = records.getJSONObject(i).getString("Status");
+                                        assetsPending.add(new Asset(id, name, ownerId, location, status));
+                                    }
+                                    break;
+                                case "assetDone":
+                                    for (int i = 0; i < records.length(); i++) {
+                                        String name = records.getJSONObject(i).getString("Name");
+                                        String id = records.getJSONObject(i).getString("Id");
+                                        String ownerId = records.getJSONObject(i).getString("OwnerId");
+                                        String location = records.getJSONObject(i).getString("location__c");
+                                        String status = records.getJSONObject(i).getString("Status");
+                                        assetsDone.add(new Asset(id, name, ownerId, location, status));
+                                    }
+                                    break;
+                            }
+                        } catch (Exception e) {
+                            onError(e);
+                        }
+                    }
+                });
             }
 
             @Override
-            public void onCancelled(DatabaseError databaseError) {
-
+            public void onError(final Exception exception) {
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Log.d("error", SubcontractorNavActivity.this.getString(SalesforceSDKManager.getInstance().getSalesforceR().stringGenericError(), exception.toString()));
+                        Toast.makeText(SubcontractorNavActivity.this,
+                                SubcontractorNavActivity.this.getString(SalesforceSDKManager.getInstance().getSalesforceR().stringGenericError(), exception.toString()),
+                                Toast.LENGTH_LONG).show();
+                    }
+                });
             }
         });
     }
@@ -137,9 +170,8 @@ public class SubcontractorNavActivity extends SalesforceActivity
     }
 
     public void loadUserData() throws UnsupportedEncodingException {
-        progressDialog.show();
         String userId = client.getClientInfo().userId;
-        sendRequest("SELECT Name, ContactId FROM User WHERE Id='" + userId + "'", "ContactId", "user");
+        sendRequest("SELECT Name, Username, ContactId FROM User WHERE Id='" + userId + "'", "ContactId", "user");
     }
 
     public void onFetchContactUser(String contactId) throws UnsupportedEncodingException {
@@ -151,7 +183,6 @@ public class SubcontractorNavActivity extends SalesforceActivity
 
     public void onFetchAccountUser(String accountId) throws UnsupportedEncodingException {
         sendRequest("SELECT Id, Name FROM Account WHERE Id='" + accountId + "'", "Id", "account");
-        progressDialog.dismiss();
     }
 
     // get user info: contact and account info stored in salesforce
@@ -169,28 +200,40 @@ public class SubcontractorNavActivity extends SalesforceActivity
                         try {
                             Log.d("result", result.toString());
                             JSONArray records = result.asJSONObject().getJSONArray("records");
-                            String name = records.getJSONObject(0).getString("Name");
-                            String id = records.getJSONObject(0).getString(sfId);
+                            String name = "";
+                            String id = "";
 
                             switch (action) {
                                 case "user":
+                                    name = records.getJSONObject(0).getString("Name");
+                                    id = records.getJSONObject(0).getString(sfId);
+                                    contactId = id;
+                                    String username = records.getJSONObject(0).getString("Username");
                                     onFetchContactUser(id);
                                     tvUser.setText(name);
+                                    tvUsername.setText("Username: " + username);
                                     un = name;
                                     break;
 
                                 case "contact":
+                                    name = records.getJSONObject(0).getString("Name");
+                                    id = records.getJSONObject(0).getString(sfId);
                                     onFetchAccountUser(id);
                                     cn = name;
                                     break;
 
                                 case "contactImage":
+                                    id = records.getJSONObject(0).getString(sfId);
                                     profileImageUrl = id;
                                     displayContactPhoto(profileImageUrl);
                                     break;
 
                                 case "account":
-                                    tvAccount.setText("Company: " + name);
+                                    name = records.getJSONObject(0).getString("Name");
+                                    if (name.equals("Subcontractor"))
+                                        tvAccount.setText("Company: Energy Services");
+                                    else
+                                        tvAccount.setText("Company: " + name);
                                     an = name;
                             }
                         } catch (Exception e) {
@@ -265,20 +308,21 @@ public class SubcontractorNavActivity extends SalesforceActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
         if (id == R.id.monitor) {
-
-        } //else if (id == R.id.register) {
-        //startActivity(new Intent(SubcontractorNavActivity.this, AssetActivity.class));}
-        //
-        else if (id == R.id.logout) {
+            Intent i = new Intent(SubcontractorNavActivity.this, MonitorActivity.class);
+            i.putExtra("contactId", contactId);
+            startActivity(i);
+        } else if (id == R.id.register) {
+            startActivity(new Intent(SubcontractorNavActivity.this, BTMainActivity.class));
+        } else if (id == R.id.logout) {
             SalesforceSDKManager.getInstance().logout(this);
             finish();
-            moveTaskToBack(true);
-        } else if (id == R.id.assets) {
-            startActivity(new Intent(SubcontractorNavActivity.this, SFAssetsActivity.class));
+            //moveTaskToBack(true);
         } else if (id == R.id.requests) {
-            startActivity(new Intent(SubcontractorNavActivity.this, RequestsActivity.class));
+            Intent i = new Intent(SubcontractorNavActivity.this, RequestsActivity.class);
+            i.putExtra("ASSETS", (Serializable) assetsPending);
+            i.putExtra("ASSETSDONE", (Serializable) assetsDone);
+            startActivity(i);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -286,18 +330,45 @@ public class SubcontractorNavActivity extends SalesforceActivity
         return true;
     }
 
-    @Override
-    public void onSaveInstanceState(Bundle outState) {
-        progressDialog.dismiss();
-        super.onSaveInstanceState(outState);
-        outState.putString("fullName", tvUser.getText().toString());
-        outState.putString("account", tvAccount.getText().toString());
-    }
+    private class UserProfile extends AsyncTask<String, Integer, Void> {
+        private ProgressDialog progressDialog;
 
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        tvUser.setText(savedInstanceState.getString("fullName"));
-        tvAccount.setText(savedInstanceState.getString("account"));
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            progressDialog = new ProgressDialog(SubcontractorNavActivity.this);
+            progressDialog.setMessage("Loading Profile");
+            progressDialog.setCancelable(false);
+            progressDialog.show();
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+            progressDialog.dismiss();
+            mainRelativLayout.setVisibility(View.VISIBLE);
+        }
+
+        @Override
+        protected Void doInBackground(String... params) {
+            try {
+                loadUserData();
+                //Count new requests
+                getClientRequests("Select Count(Id) FROM Asset WHERE Status='" + "Shipped" + "'" +
+                        "AND installationRequest__c=" + true + "", "count");
+
+                //Pending requests (shipped or installed)
+                getClientRequests("Select Id, Name, AccountId, OwnerId, location__c, installationRequest__c, Status FROM Asset WHERE Status IN('" + "Shipped" +
+                        "', '" + "Registered" + "')" + "AND installationRequest__c=" + true + "", "assetPending");
+
+                //Done requests
+                getClientRequests("Select Id, Name, AccountId, OwnerId, location__c, installationRequest__c, Status FROM Asset WHERE Status='" +
+                        "Installed" + "'" + "AND installationRequest__c=" + true + "", "assetDone");
+
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
     }
 }

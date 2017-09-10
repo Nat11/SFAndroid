@@ -1,6 +1,7 @@
 package com.testapp.android.client;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -14,23 +15,40 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.testapp.android.Mail.Mail;
-import com.testapp.android.Model.ClientRequest;
+import com.android.volley.AuthFailureError;
+import com.android.volley.NetworkResponse;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.ServerError;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.HttpHeaderParser;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.testapp.android.R;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.UnsupportedEncodingException;
+import java.util.HashMap;
+import java.util.Map;
+
+import es.dmoral.toasty.Toasty;
 
 public class ServicesActivity extends AppCompatActivity {
 
-    private String fn, cn, an, clientEmail, clientId;
-    private String assetType = "", assetLocation = "";
+    private String assetLocation = "";
     private Button validate;
-    private EditText etAssetType, etAssetLocation;
-    private DatabaseReference mDatabase;
-    private ClientRequest request;
+    private EditText etAssetLocation;
     private Spinner etServicesCompany;
     final String[] company = new String[1];
+    RequestQueue MyRequestQueue;
+    static Context context;
+    private String accessToken;
+    private String assetId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,19 +57,13 @@ public class ServicesActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-        clientEmail = getIntent().getStringExtra("clientEmail");
-        fn = getIntent().getStringExtra("fullName");
-        cn = getIntent().getStringExtra("ContactName");
-        an = getIntent().getStringExtra("AccountName");
-        clientId = getIntent().getStringExtra("clientId");
-
-        mDatabase = FirebaseDatabase.getInstance().getReference();
-
         validate = (Button) findViewById(R.id.validate);
         etServicesCompany = (Spinner) findViewById(R.id.servicesCompany);
-        etAssetType = (EditText) findViewById(R.id.input_assetType);
         etAssetLocation = (EditText) findViewById(R.id.input_assetLocation);
+        context = this;
+        accessToken = getIntent().getStringExtra("accessToken");
+        assetId = getIntent().getStringExtra("assetId");
+        MyRequestQueue = Volley.newRequestQueue(this);
     }
 
     @Override
@@ -69,13 +81,12 @@ public class ServicesActivity extends AppCompatActivity {
 
             }
         });
-
         validate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                boolean fieldsOK = validate(new EditText[]{etAssetType, etAssetLocation});
+                boolean fieldsOK = validate(new EditText[]{etAssetLocation});
                 if (fieldsOK)
-                    new SendMail().execute();
+                    updateAsset(assetId);
             }
         });
     }
@@ -90,71 +101,76 @@ public class ServicesActivity extends AppCompatActivity {
         return true;
     }
 
-    private class SendMail extends AsyncTask<String, Integer, Void> {
-        private ProgressDialog progressDialog;
+    // Update asset installationRequest Field in salesforce
+    public void updateAsset(final String assetId) {
 
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-            assetType = etAssetType.getText().toString();
-            assetLocation = etAssetLocation.getText().toString();
+        assetLocation = etAssetLocation.getText().toString();
 
-            request = new ClientRequest(fn, clientEmail, cn, an, company[0], assetType, assetLocation, "false");
+        String url = "https://arisiot-developer-edition.eu11.force.com/demo/services/data/v39.0/sobjects/Asset/" + assetId;
+        StringRequest MyStringRequest = new StringRequest(Request.Method.PATCH, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
 
-            progressDialog = ProgressDialog.show(ServicesActivity.this, "Please wait", "Sending request", true, false);
-        }
-
-        @Override
-        protected void onPostExecute(Void aVoid) {
-            super.onPostExecute(aVoid);
-            progressDialog.dismiss();
-
-            final AlertDialog.Builder alertBuilder = new AlertDialog.Builder(ServicesActivity.this);
-            alertBuilder.setMessage("Would you like to make another request?")
-                    .setCancelable(false)
-                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            finish();
-                            startActivity(getIntent());
-                        }
-                    })
-                    .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            dialogInterface.cancel();
-                            finish();
-                            startActivity(new Intent(ServicesActivity.this, ClientNavActivity.class));
-                        }
-                    });
-
-            AlertDialog alert = alertBuilder.create();
-            alert.show();
-        }
-
-        protected Void doInBackground(String... params) {
-
-            // Add request to database with autoId generated in firebase for each request object
-            mDatabase.child("ClientRequests").child(company[0].toLowerCase()).push().setValue(request);
-
-            /*Mail m = new Mail("nataliootayek@gmail.com", "natzo__93");
-            String[] toArr = {"natalio.otayek@arismore.fr"};
-            m.setTo(toArr);
-            m.setFrom("nataliootayek@gmail.com");
-            m.setSubject("Asset installation request");
-            m.setBody("Client Full Name: " + fn + "\n" + "Email: " + clientEmail + "\n" + "Contact Name: " + cn + "\n" + "Account: " + an +
-                    "\n" + "Asset Type: " + assetType + "\n" + "Installation position: " + assetLocation);
-
-            try {
-                if (m.send()) {
-                    Log.d("MailApp", "sent email");
-                } else {
-                    Log.e("MailApp", "not sent");
+                try {
+                    Log.d("responseRequest", response);
+                    Toasty.success(context, "Your request was successfully saved", Toast.LENGTH_SHORT, true).show();
+                } catch (Exception e) {
+                    e.printStackTrace();
                 }
-            } catch (Exception e) {
-                Log.e("MailApp", "Could not send email", e);
-            }*/
-            return null;
-        }
+
+                Intent i = new Intent(context, ClientNavActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(i);
+                finish();
+
+            }
+        }, new Response.ErrorListener() { //Create an error listener to handle errors appropriately.
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+                // As of f605da3 the following should work
+                NetworkResponse response = error.networkResponse;
+                if (error instanceof ServerError && response != null) {
+                    try {
+                        String res = new String(response.data,
+                                HttpHeaderParser.parseCharset(response.headers, "utf-8"));
+                        // Now you can use any deserializer to make sense of data
+                        JSONObject obj = new JSONObject(res);
+                        Log.d("responseRequestError", obj.toString());
+
+                    } catch (UnsupportedEncodingException e1) {
+                        // Couldn't properly decode data to string
+                        e1.printStackTrace();
+                    } catch (JSONException e2) {
+                        // returned data is not JSONObject?
+                        e2.printStackTrace();
+                    }
+                }
+            }
+        }) {
+            @Override
+            public byte[] getBody() throws AuthFailureError {
+                HashMap<String, String> params2 = new HashMap<String, String>();
+                params2.put("installationRequest__c", "true");
+                params2.put("location__c", assetLocation);
+                return new JSONObject(params2).toString().getBytes();
+            }
+
+            @Override
+            public String getBodyContentType() {
+                return "application/json";
+            }
+
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                Map<String, String> headers = new HashMap<String, String>();
+                Log.d("accessToken", accessToken);
+                String bearer = "Bearer ".concat(accessToken);
+                headers.put("Authorization", bearer);
+                headers.put("Content-Type", "application/json");
+                return headers;
+            }
+        };
+        MyRequestQueue.add(MyStringRequest);
     }
 }
