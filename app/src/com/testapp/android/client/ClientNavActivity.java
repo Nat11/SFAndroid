@@ -215,9 +215,7 @@ public class ClientNavActivity extends SalesforceActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.monitor) {
-
-        } else if (id == R.id.purchase) {
+        if (id == R.id.purchase) {
             Intent i = new Intent(ClientNavActivity.this, PurchaseActivity.class);
             i.putExtra("accessToken", accessToken);
             i.putExtra("accountId", accountId);

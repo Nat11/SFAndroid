@@ -13,11 +13,6 @@
             android:icon="@drawable/ic_done_all_black_36dp"
             android:title="@string/orders" />
         <item
-            android:id="@+id/monitor"
-            android:checkable="false"
-            android:icon="@drawable/ic_monitor"
-            android:title="@string/monitor" />
-        <item
             android:id="@+id/logout"
             android:checkable="false"
             android:icon="@drawable/ic_signout_circle"

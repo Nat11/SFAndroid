@@ -4784,7 +4784,7 @@ containing a value of this type.
         public static final int live_stream_seek_bar=0x7f0f0124;
         public static final int loading_indicator=0x7f0f011d;
         public static final int logo_only=0x7f0f008a;
-        public static final int logout=0x7f0f01c0;
+        public static final int logout=0x7f0f01bf;
         public static final int lvNewDevices=0x7f0f00d7;
         public static final int lv_paired=0x7f0f00f8;
         public static final int mainRelativeLayout=0x7f0f0137;
@@ -4796,7 +4796,7 @@ containing a value of this type.
         public static final int media_actions=0x7f0f0180;
         public static final int middle=0x7f0f0060;
         public static final int mini=0x7f0f0051;
-        public static final int monitor=0x7f0f01bf;
+        public static final int monitor=0x7f0f01c0;
         public static final int monochrome=0x7f0f0093;
         public static final int mr_art=0x7f0f016b;
         public static final int mr_chooser_list=0x7f0f0160;

@@ -44,7 +44,7 @@ public class MonitorActivity extends SalesforceListActivity {
     private CaseAssetAdapter listAdapter;
     private static List<String> assetIds = new ArrayList<>();
     private TextView tv_empty;
-    public static List<String> caseAssetIds = new ArrayList<>();
+    public static List<String> caseAssetIds;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,13 +77,10 @@ public class MonitorActivity extends SalesforceListActivity {
                 NavUtils.navigateUpFromSameTask(MonitorActivity.this);
             }
         });
-
-        Bundle bundle = savedInstanceState != null ? savedInstanceState : getIntent().getExtras();
-
+        caseAssetIds = new ArrayList<>();
         context = this;
         contactId = getIntent().getStringExtra("contactId");
         tv_empty = (TextView) findViewById(R.id.tv_empty);
-        caseAssetIds.clear();
     }
 
     @Override
@@ -131,6 +128,7 @@ public class MonitorActivity extends SalesforceListActivity {
                                         String caseAssetId = records.getJSONObject(i).getString("AssetId");
                                         caseAssetIds.add(caseAssetId);
                                     }
+                                    Log.d("assetCaseMonitor", String.valueOf(caseAssetIds.size()));
                                     break;
                             }
                         } catch (Exception e) {
@@ -190,10 +188,11 @@ public class MonitorActivity extends SalesforceListActivity {
         protected Void doInBackground(String... params) {
 
             try {
+                onFetchInstalledAssets("SELECT Id, AssetId FROM Case WHERE Status != '" + "Closed" + "'", "Case");
+
                 onFetchInstalledAssets("SELECT Id, Name, OwnerId, location__c, Status FROM Asset WHERE Installed_By__c = '" + contactId +
                         "' AND Status = '" + "Installed" + "'", "Asset");
 
-                onFetchInstalledAssets("SELECT Id, AssetId FROM Case WHERE Status != '" + "Closed" + "'", "Case");
 
 
             } catch (UnsupportedEncodingException e) {

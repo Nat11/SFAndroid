@@ -24,7 +24,6 @@ import java.util.List;
 
 public class CaseAssetAdapter extends ArrayAdapter<Asset> {
     private List<Asset> assets;
-    private List<String> caseAssetIds;
 
     public CaseAssetAdapter(@NonNull Context context, @LayoutRes int resource, @NonNull List<Asset> objects) {
         super(context, resource, objects);
@@ -40,7 +39,8 @@ public class CaseAssetAdapter extends ArrayAdapter<Asset> {
                     inflate(R.layout.list_asset_case_item, parent, false);
         }
 
-        caseAssetIds = MonitorActivity.caseAssetIds;
+
+        Log.d("assetCaseSize", String.valueOf(MonitorActivity.caseAssetIds.size()));
 
         final Asset asset = assets.get(position);
         TextView nameText = (TextView) convertView.findViewById(R.id.assetNameText);
@@ -55,14 +55,17 @@ public class CaseAssetAdapter extends ArrayAdapter<Asset> {
 
         Log.d("testAsset", asset.getId());
 
-        for (String id : caseAssetIds) {
-            Log.d("assetCase", id);
+        Log.d("assetId", asset.getId());
+        for (String id : MonitorActivity.caseAssetIds) {
+            Log.d("assetCaseId", id);
         }
-
-        if (caseAssetIds.contains(asset.getId())) {
+        if (MonitorActivity.caseAssetIds.contains(asset.getId())) {
+            Log.d("assetCaseId", "TRUE");
             stateText.setText("Unstable Performance");
-        } else
+        } else if (!MonitorActivity.caseAssetIds.contains(asset.getId())) {
+            Log.d("assetCaseId", "FALSE");
             stateText.setText("Stable Performance");
+        }
 
         return convertView;
     }

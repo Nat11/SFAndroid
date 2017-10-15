@@ -1,4 +1,4 @@
-#Fri Sep 08 14:10:11 CEST 2017
+#Sun Oct 15 23:33:56 CEST 2017
 file.83=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9c98962c7a10a4add1c17f5b78571e1a3241d745\\classes.dex
 file.82=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd\\classes.dex
 file.81=H\:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\jjwt-0.7.0_76fa6d2c927d3fbb5d2a630d5e34cfe4c1fb43bc\\classes.dex

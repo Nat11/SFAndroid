@@ -8,12 +8,12 @@
         "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\layout\\activity_token.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_metadata.xml",
-        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\layout\\activity_device_metadata.xml"
-    },
-    {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_mini_controller.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a0e56af4648da12feddffa5b25ee148e6cc310cf\\output\\res\\layout\\cast_mini_controller.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_metadata.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\layout\\activity_device_metadata.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_asset_installation.xml",
@@ -36,12 +36,12 @@
         "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\layout\\sf__custom_server_url.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_client_nav.xml",
-        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\layout\\nav_header_client_nav.xml"
-    },
-    {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_client_nav.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\layout\\nav_header_client_nav.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sf__inspector_result_cell.xml",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d6fa3fb91e0c457463dddee491ed0c6cfea7884\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_installed_assets.xml",
-        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\layout\\activity_installed_assets.xml"
-    },
-    {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_product_item.xml",
         "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\layout\\list_product_item.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_installed_assets.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\layout\\activity_installed_assets.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_cart_item.xml",
@@ -152,12 +152,12 @@
         "source": "H:\\Desktop\\Accenture IDMS\\SalesforceMobileSDK-Android\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\layout\\sf__fingerprint_dialog.xml"
     },
     {
-        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_subcontractor_nav.xml",
-        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\layout\\app_bar_subcontractor_nav.xml"
-    },
-    {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_requests.xml",
         "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\layout\\activity_requests.xml"
+    },
+    {
+        "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_subcontractor_nav.xml",
+        "source": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\res\\layout\\app_bar_subcontractor_nav.xml"
     },
     {
         "merged": "H:\\Desktop\\Accenture IDMS\\Android\\SFAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sf__login.xml",

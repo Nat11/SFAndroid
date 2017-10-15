@@ -49,6 +49,7 @@ public class CartAdapter extends ArrayAdapter<Product> {
         }
 
         final Product product = products.get(position);
+
         TextView nameText = (TextView) convertView.findViewById(R.id.nameText);
         nameText.setText(product.getName());
         TextView priceText = (TextView) convertView.findViewById(R.id.priceText);

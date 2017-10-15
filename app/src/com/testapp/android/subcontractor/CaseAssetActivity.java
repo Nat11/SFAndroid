@@ -114,6 +114,12 @@ public class CaseAssetActivity extends SalesforceActivity implements View.OnClic
     }
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(CaseAssetActivity.this, SubcontractorNavActivity.class));
+    }
+
+    @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.homepageBtn:
